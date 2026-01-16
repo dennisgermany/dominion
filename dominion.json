@@ -1,0 +1,5065 @@
+{
+  "cards": [
+    {
+      "id": "d07e4264-98c8-4677-9492-b743f814eff9",
+      "en": "Cellar",
+      "de": "Keller",
+      "price": "2",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "ff8e3cec-8ef4-4fa2-90b6-5cd2eee0e7fe",
+      "en": "Chapel",
+      "de": "Kapelle",
+      "price": "2",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "0579e10d-15c9-403e-9feb-ac55e0274409",
+      "en": "Moat",
+      "de": "Burggraben",
+      "price": "2",
+      "type": [
+        "Action",
+        "Reaction"
+      ]
+    },
+    {
+      "id": "b09e4b02-e477-4d07-ab84-13fa99388b41",
+      "en": "Village",
+      "de": "Dorf",
+      "price": "3",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "10c23a1b-8360-4337-823b-d732e7bc601f",
+      "en": "Workshop",
+      "de": "Werkstatt",
+      "price": "3",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "a1b2c3d4-e5f6-4789-a012-3456789abcde",
+      "en": "Chancellor",
+      "de": "Kanzler",
+      "price": "3",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "b2c3d4e5-f6a7-4890-b123-456789abcdef",
+      "en": "Woodcutter",
+      "de": "Holzfäller",
+      "price": "3",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "4c0a294b-95c6-4ea7-ace1-a019311a337a",
+      "en": "Bureaucrat",
+      "de": "Bürokrat",
+      "price": "4",
+      "type": [
+        "Action",
+        "Attack"
+      ]
+    },
+    {
+      "id": "7b7f6f1b-5388-4fd5-bc84-c70f9183fe0b",
+      "en": "Gardens",
+      "de": "Gärten",
+      "price": "4",
+      "type": [
+        "Victory"
+      ]
+    },
+    {
+      "id": "8a4e0627-d4d6-4d47-9de6-5f2b534fbea7",
+      "en": "Militia",
+      "de": "Miliz",
+      "price": "4",
+      "type": [
+        "Action",
+        "Attack"
+      ]
+    },
+    {
+      "id": "4c9f516e-b8b2-4ab6-a03d-fb49b3e3dc0d",
+      "en": "Moneylender",
+      "de": "Geldverleiher",
+      "price": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "a705018e-626e-4fc1-abec-b1ffb945d013",
+      "en": "Remodel",
+      "de": "Umbau",
+      "price": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "06651d9e-6a1b-4d4d-a8cc-7493e7b223d0",
+      "en": "Smithy",
+      "de": "Schmiede",
+      "price": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "c3d4e5f6-a7b8-4901-c234-56789abcdef0",
+      "en": "Feast",
+      "de": "Festmahl",
+      "price": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "d4e5f6a7-b8c9-4012-d345-6789abcdef01",
+      "en": "Spy",
+      "de": "Spion",
+      "price": "4",
+      "type": [
+        "Action",
+        "Attack"
+      ]
+    },
+    {
+      "id": "e5f6a7b8-c9d0-4123-e456-789abcdef012",
+      "en": "Thief",
+      "de": "Dieb",
+      "price": "4",
+      "type": [
+        "Action",
+        "Attack"
+      ]
+    },
+    {
+      "id": "f6a7b8c9-d0e1-4234-f567-89abcdef0123",
+      "en": "Throne Room",
+      "de": "Thronsaal",
+      "price": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "07b72f9f-f03e-48ff-b8d9-7f4fdcb666d8",
+      "en": "Council Room",
+      "de": "Ratsstube",
+      "price": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "ea8de041-64dd-45fe-b67e-eb2dc41be799",
+      "en": "Festival",
+      "de": "Fest",
+      "price": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "25010483-67e0-429b-82ea-6c2097c37072",
+      "en": "Laboratory",
+      "de": "Laboratorium",
+      "price": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "4030d078-e60f-4398-8a82-59c0d3d260d1",
+      "en": "Library",
+      "de": "Bibliothek",
+      "price": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "90ed7534-bf17-4ac3-9220-2d959dad5ab6",
+      "en": "Market",
+      "de": "Markt",
+      "price": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "138b7234-069a-480d-b057-614daa630adb",
+      "en": "Mine",
+      "de": "Mine",
+      "price": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "2fa6c32b-e513-42ce-a420-9a3899a8b7e7",
+      "en": "Witch",
+      "de": "Hexe",
+      "price": "5",
+      "type": [
+        "Action",
+        "Attack"
+      ]
+    },
+    {
+      "id": "a7b8c9d0-e1f2-4345-a678-9abcdef01234",
+      "en": "Adventurer",
+      "de": "Abenteurer",
+      "price": "6",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "10a49a27-4b86-4aa7-a188-04da9deaf910",
+      "en": "Harbinger",
+      "de": "Vorbote",
+      "price": "3",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "b013df0a-6781-4f5c-9d1c-8da219a08b8d",
+      "en": "Merchant",
+      "de": "Händler",
+      "price": "3",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "c993def0-8557-461f-893e-0ae8cf758279",
+      "en": "Vassal",
+      "de": "Vasall",
+      "price": "3",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "6f90764a-c90b-4e79-a185-3f089d1d2342",
+      "en": "Poacher",
+      "de": "Wilderer",
+      "price": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "824b11da-74ac-4a30-bbb7-a0c9c90fb2bd",
+      "en": "Bandit",
+      "de": "Banditin",
+      "price": "5",
+      "type": [
+        "Action",
+        "Attack"
+      ]
+    },
+    {
+      "id": "8eb243c8-60fc-45ec-9bd2-b52dfe4e943b",
+      "en": "Sentry",
+      "de": "Wachposten",
+      "price": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "8eb59c39-4633-46c0-ba9d-5c42dcb0c260",
+      "en": "Artisan",
+      "de": "Handwerkerin",
+      "price": "6",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "aeb7df5a-258f-4dd1-a2b5-1dace21ca0c3",
+      "en": "Courtyard",
+      "de": "Innenhof",
+      "price": "2",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "55771465-4cbf-4b98-a286-65406406c816",
+      "en": "Pawn",
+      "de": "Bauer",
+      "price": "2",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "cec16d08-44fc-4152-bcbb-0c4d30568e16",
+      "en": "Secret Chamber",
+      "de": "Geheime Kammer",
+      "price": "2",
+      "type": [
+        "Action",
+        "Reaction"
+      ]
+    },
+    {
+      "id": "3973fa7a-5cd7-46e1-a38e-08d7903f522b",
+      "en": "Great Hall",
+      "de": "Große Halle",
+      "price": "3",
+      "type": [
+        "Action",
+        "Victory"
+      ]
+    },
+    {
+      "id": "9d4caa74-6574-4561-8083-a741eb84f7ab",
+      "en": "Masquerade",
+      "de": "Maskerade",
+      "price": "3",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "faf28dd2-2a7d-4d93-89b8-4a9e0baba973",
+      "en": "Shanty Town",
+      "de": "Elendsviertel",
+      "price": "3",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "e279eff6-5b01-4b17-92e3-8173a7e5dd2b",
+      "en": "Steward",
+      "de": "Verwalter",
+      "price": "3",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "5cf72ab4-e99d-44f5-871b-f0853508a671",
+      "en": "Swindler",
+      "de": "Gauner",
+      "price": "3",
+      "type": [
+        "Action",
+        "Attack"
+      ]
+    },
+    {
+      "id": "45cc0e46-160f-49eb-9ea3-db75ffc6893b",
+      "en": "Wishing Well",
+      "de": "Wunschbrunnen",
+      "price": "3",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "89a44393-2e1c-462c-9426-cd33baa066e4",
+      "en": "Baron",
+      "de": "Baron",
+      "price": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "d4d2b78a-7747-4a88-b211-e63d8243debe",
+      "en": "Bridge",
+      "de": "Brücke",
+      "price": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "6d924ca0-8e77-4c65-b56a-a46717f1ce90",
+      "en": "Conspirator",
+      "de": "Verschwörer",
+      "price": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "30d5e572-e58a-4e9c-860a-48c02b476e06",
+      "en": "Ironworks",
+      "de": "Eisenhütte",
+      "price": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "bfd56251-5e16-4e4e-b1d2-461dbdf5148e",
+      "en": "Mining Village",
+      "de": "Bergwerkdorf",
+      "price": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "95c66779-856f-4a90-8cbd-f549a9474c89",
+      "en": "Duke",
+      "de": "Herzog",
+      "price": "5",
+      "type": [
+        "Victory"
+      ]
+    },
+    {
+      "id": "8471b713-f30b-490e-9d9d-6ed086c6a884",
+      "en": "Minion",
+      "de": "Lakai",
+      "price": "5",
+      "type": [
+        "Action",
+        "Attack"
+      ]
+    },
+    {
+      "id": "4d41c1ed-a5a6-46df-9844-85b9af969146",
+      "en": "Torturer",
+      "de": "Folterknecht",
+      "price": "5",
+      "type": [
+        "Action",
+        "Attack"
+      ]
+    },
+    {
+      "id": "d5e81b38-ca13-45fe-9dbb-895ced4b13e2",
+      "en": "Trading Post",
+      "de": "Handelsposten",
+      "price": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "f87ac860-19cb-450f-bb88-5f1a75e928ce",
+      "en": "Upgrade",
+      "de": "Verbesserung",
+      "price": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "10bea930-9547-4a44-a926-8d1574a2e044",
+      "en": "Harem",
+      "de": "Harem",
+      "price": "6",
+      "type": [
+        "Treasure",
+        "Victory"
+      ]
+    },
+    {
+      "id": "8a08ac59-ffd7-4b79-9f98-305c5bbe83d3",
+      "en": "Nobles",
+      "de": "Adlige",
+      "price": "6",
+      "type": [
+        "Action",
+        "Victory"
+      ]
+    },
+    {
+      "id": "cc75a06d-3726-448d-bfab-6b0557a2ab4e",
+      "en": "Lurker",
+      "de": "Lauerer",
+      "price": "2",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "c1b6c7a9-2739-405d-982e-d223438978ec",
+      "en": "Diplomat",
+      "de": "Diplomat",
+      "price": "4",
+      "type": [
+        "Action",
+        "Reaction"
+      ]
+    },
+    {
+      "id": "98c0cb1f-9140-4556-9ed1-0f5319d90f07",
+      "en": "Mill",
+      "de": "Mühle",
+      "price": "4",
+      "type": [
+        "Action",
+        "Victory"
+      ]
+    },
+    {
+      "id": "b4513a57-cd7c-4026-93a1-ff9f0108dcc9",
+      "en": "Secret Passage",
+      "de": "Geheimgang",
+      "price": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "4cb577fb-fc02-46f1-abb3-a058e41aedb5",
+      "en": "Courtier",
+      "de": "Höfling",
+      "price": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "73a8160c-61e2-430b-8210-a23198f4c2dd",
+      "en": "Patrol",
+      "de": "Patrouille",
+      "price": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "c60a6511-8f20-42f3-8fb9-25160eb082c0",
+      "en": "Replace",
+      "de": "Ersetzen",
+      "price": "5",
+      "type": [
+        "Action",
+        "Attack"
+      ]
+    },
+    {
+      "id": "9fb99bd8-11e3-4a41-bda7-17e6b18578cc",
+      "en": "Coppersmith",
+      "de": "Kupferschmied",
+      "price": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "b596f937-6ef7-452e-a202-e50a9d7df49d",
+      "en": "Scout",
+      "de": "Späher",
+      "price": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "f2df22b4-c938-4e90-97ae-7db7e9a22138",
+      "en": "Saboteur",
+      "de": "Saboteur",
+      "price": "5",
+      "type": [
+        "Action",
+        "Attack"
+      ]
+    },
+    {
+      "id": "7c09f203-cb77-4074-9c13-8ce2c852c0d6",
+      "en": "Tribute",
+      "de": "Tribut",
+      "price": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "559a5406-6ef5-417e-87a6-b7ca0756f5de",
+      "en": "Farm",
+      "de": "Bauernhof",
+      "price": "6",
+      "type": [
+        "Treasure",
+        "Victory"
+      ]
+    },
+    {
+      "id": "6ff68024-1758-48a1-8611-b09f856de789",
+      "en": "Embargo",
+      "de": "Embargo",
+      "price": "2",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "9d17cbde-2969-4cdd-84bc-51abe90e9671",
+      "en": "Haven",
+      "de": "Zuflucht",
+      "price": "2",
+      "type": [
+        "Action",
+        "Duration"
+      ]
+    },
+    {
+      "id": "63a7f198-d597-4f42-ae9d-4eb678a8d298",
+      "en": "Lighthouse",
+      "de": "Leuchtturm",
+      "price": "2",
+      "type": [
+        "Action",
+        "Duration"
+      ]
+    },
+    {
+      "id": "d2f9cbe4-e760-4c92-a3b0-fdb0e07eb09d",
+      "en": "Native Village",
+      "de": "Eingeborenendorf",
+      "price": "2",
+      "type": [
+        "Action",
+        "Mat"
+      ]
+    },
+    {
+      "id": "f96e69fa-4ff6-4b1e-b524-0b3c4f9150e3",
+      "en": "Pearl Diver",
+      "de": "Perlentaucher",
+      "price": "2",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "08f44a8d-c38a-4e77-8b03-af69e5a9a29d",
+      "en": "Ambassador",
+      "de": "Botschafter",
+      "price": "3",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "27fc6c0b-6a0c-4bdd-9991-19127801b133",
+      "en": "Fishing Village",
+      "de": "Fischerdorf",
+      "price": "3",
+      "type": [
+        "Action",
+        "Duration"
+      ]
+    },
+    {
+      "id": "6c2ee8ab-7f69-47fe-a298-70175a578911",
+      "en": "Lookout",
+      "de": "Ausguck",
+      "price": "3",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "a6e505b1-9060-41ba-a156-ef9a0a3e46bd",
+      "en": "Smugglers",
+      "de": "Schmuggler",
+      "price": "3",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "22f750b8-c62c-406d-907a-1663d8836365",
+      "en": "Caravan",
+      "de": "Karawane",
+      "price": "4",
+      "type": [
+        "Action",
+        "Duration"
+      ]
+    },
+    {
+      "id": "d1c872d2-7ebc-4e3d-ae48-93682c2b247e",
+      "en": "Island",
+      "de": "Insel",
+      "price": "4",
+      "type": [
+        "Victory"
+      ]
+    },
+    {
+      "id": "2d269b44-9b5a-4ee3-9bc7-d9f741dfcfac",
+      "en": "Navigator",
+      "de": "Navigator",
+      "price": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "28ae518c-de23-49da-9e63-d35e0460fefe",
+      "en": "Pirate Ship",
+      "de": "Piratenschiff",
+      "price": "4",
+      "type": [
+        "Action",
+        "Attack"
+      ]
+    },
+    {
+      "id": "a88e5412-28be-496b-8f01-50caefc245bf",
+      "en": "Salvager",
+      "de": "Bergungsschiff",
+      "price": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "6065017f-5bb3-4849-8d90-21fb8ebf43e4",
+      "en": "Sea Hag",
+      "de": "Seehexe",
+      "price": "4",
+      "type": [
+        "Action",
+        "Attack"
+      ]
+    },
+    {
+      "id": "10364cbd-2442-4f62-b409-460d9f9922c1",
+      "en": "Treasure Map",
+      "de": "Schatzkarte",
+      "price": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "8baa11dd-5c99-414e-a4cb-9b6a6fc44821",
+      "en": "Bazaar",
+      "de": "Basar",
+      "price": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "bcec59ff-e7b7-4d88-b448-9540cfb58377",
+      "en": "Explorer",
+      "de": "Entdecker",
+      "price": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "8e6586f4-f678-4fc5-aaed-6452ab4b0724",
+      "en": "Ghost Ship",
+      "de": "Geisterschiff",
+      "price": "5",
+      "type": [
+        "Action",
+        "Attack"
+      ]
+    },
+    {
+      "id": "84fe8952-5ea0-4cfc-81d4-da82e8332c01",
+      "en": "Merchant Ship",
+      "de": "Handelsschiff",
+      "price": "5",
+      "type": [
+        "Action",
+        "Duration"
+      ]
+    },
+    {
+      "id": "1e6b64d1-9e7b-4ec8-bc66-01bc971f43fc",
+      "en": "Outpost",
+      "de": "Außenposten",
+      "price": "5",
+      "type": [
+        "Action",
+        "Duration"
+      ]
+    },
+    {
+      "id": "4ac77fc5-3bcb-4cb0-82e5-81f580954116",
+      "en": "Tactician",
+      "de": "Taktiker",
+      "price": "5",
+      "type": [
+        "Action",
+        "Duration"
+      ]
+    },
+    {
+      "id": "7da9828b-e28c-4ace-86e4-49952d0a4d8c",
+      "en": "Treasury",
+      "de": "Schatzkammer",
+      "price": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "18c2eb23-92dd-4475-a98b-020db4b2ce20",
+      "en": "Wharf",
+      "de": "Werft",
+      "price": "5",
+      "type": [
+        "Action",
+        "Duration"
+      ]
+    },
+    {
+      "id": "9264de3f-c20c-449e-8b42-8adf78aad144",
+      "en": "Warehouse",
+      "de": "Lagerhaus",
+      "price": "3",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "e110720a-a360-461a-b771-3199944b5133",
+      "en": "Cutpurse",
+      "de": "Geldverstecker",
+      "price": "4",
+      "type": [
+        "Action",
+        "Attack"
+      ]
+    },
+    {
+      "id": "6a108754-3882-4e87-971d-cd27e3f105ff",
+      "en": "Herbalist",
+      "de": "Kräuterkundiger",
+      "price": "2",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "dcfc6f2c-3476-4413-95af-9c9fa34d4a56",
+      "en": "Scrying Pool",
+      "de": "Wahrsagerin",
+      "price": "2P",
+      "type": [
+        "Action",
+        "Attack"
+      ]
+    },
+    {
+      "id": "17be3bed-7b99-4e8b-a416-a80489243e56",
+      "en": "University",
+      "de": "Universität",
+      "price": "2P",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "ac037328-8dc3-4ca7-b741-82c1bfbc7c15",
+      "en": "Apothecary",
+      "de": "Apotheker",
+      "price": "2P",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "1c995007-ccbf-45d0-aff7-2f4994f697e6",
+      "en": "Apprentice",
+      "de": "Lehrling",
+      "price": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "29f4903a-fb02-4186-a6c5-0c86e2381e5d",
+      "en": "Golem",
+      "de": "Golem",
+      "price": "4P",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "a31155f7-2277-457d-852e-51dc19f3830f",
+      "en": "Philosopher's Stone",
+      "de": "Stein der Weisen",
+      "price": "3P",
+      "type": [
+        "Treasure"
+      ]
+    },
+    {
+      "id": "3222d6d8-901a-4815-8715-923ca9be09e9",
+      "en": "Transmute",
+      "de": "Verwandlung",
+      "price": "P",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "2fc599fc-1c13-4a7d-bd4d-cf6a896f3d1a",
+      "en": "Vineyard",
+      "de": "Weingut",
+      "price": "P",
+      "type": [
+        "Victory"
+      ]
+    },
+    {
+      "id": "0a4994b2-d13b-4ad4-9cf4-5227c2a2c088",
+      "en": "Alchemist",
+      "de": "Alchemist",
+      "price": "3P",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "189b3b8c-1dad-4008-b56a-4ad93427add1",
+      "en": "Familiar",
+      "de": "Vertrauter",
+      "price": "3P",
+      "type": [
+        "Action",
+        "Attack"
+      ]
+    },
+    {
+      "id": "df6e993b-aab9-4642-afcd-2f7705b930f3",
+      "en": "Possession",
+      "de": "Besessenheit",
+      "price": "6P",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "6209ed47-55d2-4a22-bb84-51e123e96ff1",
+      "en": "Loan",
+      "de": "Kredit",
+      "price": "3",
+      "type": [
+        "Treasure"
+      ]
+    },
+    {
+      "id": "0ea775af-acbb-4f07-8c03-fc4fbfa486b2",
+      "en": "Trade Route",
+      "de": "Handelsroute",
+      "price": "3",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "ebafddd1-0635-47a1-ba31-35f61c7b41b9",
+      "en": "Watchtower",
+      "de": "Wachturm",
+      "price": "3",
+      "type": [
+        "Action",
+        "Reaction"
+      ]
+    },
+    {
+      "id": "ff2f97ab-30f8-4627-8a06-a9fac4b0c623",
+      "en": "Bishop",
+      "de": "Bischof",
+      "price": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "c76ac835-0f15-47bc-b050-2f7ab6c85440",
+      "en": "Monument",
+      "de": "Monument",
+      "price": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "8211709d-9564-4bbe-8a07-8d1b610c6bbf",
+      "en": "Quarry",
+      "de": "Steinbruch",
+      "price": "4",
+      "type": [
+        "Treasure"
+      ]
+    },
+    {
+      "id": "1ddec8b6-4e9e-4f17-bd4e-5193d59abc39",
+      "en": "Talisman",
+      "de": "Talisman",
+      "price": "4",
+      "type": [
+        "Treasure"
+      ]
+    },
+    {
+      "id": "5eb74fbd-8edc-44e0-9acf-64338b7c1127",
+      "en": "Worker's Village",
+      "de": "Arbeiterdorf",
+      "price": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "021e4cc2-5a89-451e-8325-41e6dc9d0098",
+      "en": "City",
+      "de": "Stadt",
+      "price": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "ef0a0f15-c19a-4cf9-9bef-b105f5f2314a",
+      "en": "Contraband",
+      "de": "Schmuggelware",
+      "price": "5",
+      "type": [
+        "Treasure"
+      ]
+    },
+    {
+      "id": "ad4ebcfa-dcdc-4907-9068-68237b0e4454",
+      "en": "Counting House",
+      "de": "Zählhaus",
+      "price": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "9b6408c1-f45b-4f29-b724-d5acd8ff9f19",
+      "en": "Mint",
+      "de": "Münzstätte",
+      "price": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "9be522ae-ad1c-4280-901a-a6a8f42a2d7b",
+      "en": "Mountebank",
+      "de": "Quacksalber",
+      "price": "5",
+      "type": [
+        "Action",
+        "Attack"
+      ]
+    },
+    {
+      "id": "a1d1d2ff-2915-435a-8a56-fda1224ab89a",
+      "en": "Rabble",
+      "de": "Gesindel",
+      "price": "5",
+      "type": [
+        "Action",
+        "Attack"
+      ]
+    },
+    {
+      "id": "76ec5d6a-2839-4e3e-bc5c-5d2f32fbbfc4",
+      "en": "Royal Seal",
+      "de": "Königliches Siegel",
+      "price": "5",
+      "type": [
+        "Treasure"
+      ]
+    },
+    {
+      "id": "b65a422b-efce-48d4-8861-19904d31b76d",
+      "en": "Vault",
+      "de": "Gewölbe",
+      "price": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "397eba16-8bae-4c0b-9d7b-585928c1fed6",
+      "en": "Venture",
+      "de": "Unternehmen",
+      "price": "5",
+      "type": [
+        "Treasure"
+      ]
+    },
+    {
+      "id": "334dd843-b302-4e95-8868-0f927eadb12f",
+      "en": "Goons",
+      "de": "Schlägertrupp",
+      "price": "6",
+      "type": [
+        "Action",
+        "Attack"
+      ]
+    },
+    {
+      "id": "238b36c9-0e17-4a93-bfe1-e3ee32082f4c",
+      "en": "Grand Market",
+      "de": "Großer Markt",
+      "price": "6",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "2b135a18-f2dd-4d03-b508-25d4258b29ff",
+      "en": "Hoard",
+      "de": "Hort",
+      "price": "6",
+      "type": [
+        "Treasure"
+      ]
+    },
+    {
+      "id": "01bab2eb-2f55-49f7-8bf0-f9a46fa791f9",
+      "en": "Bank",
+      "de": "Bank",
+      "price": "7",
+      "type": [
+        "Treasure"
+      ]
+    },
+    {
+      "id": "cf947f7f-54a7-4832-a088-57ed2c036e87",
+      "en": "Expand",
+      "de": "Ausbau",
+      "price": "7",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "1c54e31a-fc00-4406-9835-0945d36e0d87",
+      "en": "Forge",
+      "de": "Schmiede",
+      "price": "7",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "d2e00e92-5b8c-414b-ab0f-c459835cf830",
+      "en": "King's Court",
+      "de": "Königshof",
+      "price": "7",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "cd5dff98-e2c9-4e32-af16-903fe7c2c706",
+      "en": "Peddler",
+      "de": "Hausierer",
+      "price": "8*",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "f6d8ba8c-3faf-4934-8f85-bc97a0a998be",
+      "en": "Anvil",
+      "de": "Amboss",
+      "price": "3",
+      "type": [
+        "Action",
+        "Treasure"
+      ]
+    },
+    {
+      "id": "8d9c53c5-8724-4a87-b88c-adfec9caf636",
+      "en": "Clerk",
+      "de": "Schreiber",
+      "price": "4",
+      "type": [
+        "Action",
+        "Attack",
+        "Duration"
+      ]
+    },
+    {
+      "id": "1f37de01-cd4e-4aca-93b2-3f62445ff914",
+      "en": "Investment",
+      "de": "Investition",
+      "price": "4",
+      "type": [
+        "Treasure"
+      ]
+    },
+    {
+      "id": "f74b7be1-ce31-4b45-8289-7fcfa5432f5d",
+      "en": "Tiara",
+      "de": "Diadem",
+      "price": "4",
+      "type": [
+        "Action",
+        "Treasure"
+      ]
+    },
+    {
+      "id": "178abf5c-b15a-4877-a13e-fc995438d4d2",
+      "en": "Charlatan",
+      "de": "Scharlatan",
+      "price": "5",
+      "type": [
+        "Action",
+        "Attack"
+      ]
+    },
+    {
+      "id": "b4f05b08-fd83-45a4-9234-945b1c7f6ac2",
+      "en": "Collection",
+      "de": "Sammlung",
+      "price": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "3ce6a24e-0488-4a6c-99bc-a88cf80fe9ed",
+      "en": "Magnate",
+      "de": "Magnat",
+      "price": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "c608a2f2-e29a-4ee3-9794-a09dac10e3c1",
+      "en": "War Chest",
+      "de": "Kriegskasse",
+      "price": "5",
+      "type": [
+        "Treasure"
+      ]
+    },
+    {
+      "id": "ee30ac18-be13-4c14-a106-8e4bdf2a26dd",
+      "en": "Crossroads",
+      "de": "Wegkreuzung",
+      "price": "2",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "5f357df6-f48d-456f-be10-91d16ae19ce5",
+      "en": "Duchess",
+      "de": "Herzogin",
+      "price": "2",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "fa7bee48-5403-42e0-ab40-2a0df0424437",
+      "en": "Fool's Gold",
+      "de": "Katzengold",
+      "price": "2",
+      "type": [
+        "Treasure"
+      ]
+    },
+    {
+      "id": "d103e5d3-b0b5-4bf3-9f81-c34385c2956e",
+      "en": "Develop",
+      "de": "Ausbau",
+      "price": "3",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "da523b31-5550-460e-881b-f55da16e324b",
+      "en": "Oasis",
+      "de": "Oase",
+      "price": "3",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "39368c9f-5dc4-45d3-98cc-a891ed257a6f",
+      "en": "Oracle",
+      "de": "Orakel",
+      "price": "3",
+      "type": [
+        "Action",
+        "Attack"
+      ]
+    },
+    {
+      "id": "492be2a4-2015-43db-820e-e43b6a3f49c7",
+      "en": "Scheme",
+      "de": "Komplott",
+      "price": "3",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "044159d1-c3f7-4330-967b-688cfa83333b",
+      "en": "Tunnel",
+      "de": "Tunnel",
+      "price": "3",
+      "type": [
+        "Victory",
+        "Reaction"
+      ]
+    },
+    {
+      "id": "f6e2c778-69b1-4c64-800d-2612f5eeba83",
+      "en": "Jack of All Trades",
+      "de": "Lebenskünstler",
+      "price": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "b1034b1e-a5b5-42d6-991b-1b3954ef2bfb",
+      "en": "Noble Brigand",
+      "de": "Edler Räuber",
+      "price": "4",
+      "type": [
+        "Action",
+        "Attack"
+      ]
+    },
+    {
+      "id": "ffa712d4-228a-4c24-84ae-1aa21ce35cab",
+      "en": "Nomad Camp",
+      "de": "Nomadenlager",
+      "price": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "b5cf1504-5ec0-4713-89b6-43939451fb97",
+      "en": "Silk Road",
+      "de": "Seidenstraße",
+      "price": "4",
+      "type": [
+        "Victory"
+      ]
+    },
+    {
+      "id": "b8ed9a16-94a4-4f51-87a4-f702576ffd18",
+      "en": "Spice Merchant",
+      "de": "Gewürzhändler",
+      "price": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "3a7f2038-18c8-4fbb-a491-44d917121c52",
+      "en": "Trader",
+      "de": "Händlerin",
+      "price": "4",
+      "type": [
+        "Action",
+        "Reaction"
+      ]
+    },
+    {
+      "id": "9b5f65c9-ab23-4526-b6e3-3ef7855ad670",
+      "en": "Cache",
+      "de": "Vorrat",
+      "price": "5",
+      "type": [
+        "Treasure"
+      ]
+    },
+    {
+      "id": "7fe45964-b022-47c9-952c-8e97e508402d",
+      "en": "Cartographer",
+      "de": "Kartograph",
+      "price": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "7d9abf0f-283c-4f3e-ac44-5acb19568f8d",
+      "en": "Embassy",
+      "de": "Botschaft",
+      "price": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "603c0d38-aca2-4c31-9903-2777c5461a9e",
+      "en": "Haggler",
+      "de": "Feilscher",
+      "price": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "3fe0a292-11cd-4578-8694-fd17cb33a876",
+      "en": "Highway",
+      "de": "Fernstraße",
+      "price": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "1943b92c-059c-4a08-98e7-8c59ef500c4f",
+      "en": "Ill-Gotten Gains",
+      "de": "Hexenkessel",
+      "price": "5",
+      "type": [
+        "Treasure"
+      ]
+    },
+    {
+      "id": "cdbe41d5-4a7e-48d4-8a02-9abfc242260b",
+      "en": "Inn",
+      "de": "Gasthaus",
+      "price": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "635919d7-b47d-4bc9-9954-5e0668ce80d7",
+      "en": "Mandarin",
+      "de": "Mandarin",
+      "price": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "abe6f714-570a-4ca9-a4b5-5d3a64fa5c9b",
+      "en": "Margrave",
+      "de": "Markgraf",
+      "price": "5",
+      "type": [
+        "Action",
+        "Attack"
+      ]
+    },
+    {
+      "id": "5c1f07be-0c5d-406a-a2e2-5c36159d3e91",
+      "en": "Stables",
+      "de": "Stallungen",
+      "price": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "2746f5d4-8375-4317-814c-8047f640029e",
+      "en": "Border Village",
+      "de": "Grenzdorf",
+      "price": "6",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "169fe4f6-faa4-4a90-949e-e99e4ea572c6",
+      "en": "Farmland",
+      "de": "Fruchtbares Land",
+      "price": "6",
+      "type": [
+        "Victory"
+      ]
+    },
+    {
+      "id": "e0af98ab-fe3a-41e5-9d57-be4ef34e6a07",
+      "en": "Guard Dog",
+      "de": "Wachhund",
+      "price": "3",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "19266119-d21d-49b7-a626-0e2e0e81412c",
+      "en": "Nomads",
+      "de": "Nomaden",
+      "price": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "05644033-bf2c-4a46-9010-b8f7f3e2855f",
+      "en": "Trail",
+      "de": "Pfad",
+      "price": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "8a4aefd5-42e6-463c-9241-60c856a12aea",
+      "en": "Weaver",
+      "de": "Weberin",
+      "price": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "04b4d462-bda1-4f13-83e2-0d6ac684d0c0",
+      "en": "Berserker",
+      "de": "Berserker",
+      "price": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "9bb5d604-41fd-4e13-ad01-d2c8e9f104f8",
+      "en": "Cauldron",
+      "de": "Kessel",
+      "price": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "1c8aa34a-e403-40f3-ad92-2f7df5d96fa1",
+      "en": "Souk",
+      "de": "Souk",
+      "price": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "8d4fe956-d1a3-4270-b9b0-448261da5138",
+      "en": "Wheelwright",
+      "de": "Radmacher",
+      "price": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "42995efd-81c8-420a-b1f0-581284124b1c",
+      "en": "Poor House",
+      "de": "Armenhaus",
+      "price": "1",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "77b5e8d5-30d7-4102-b94f-3e3961acd8a2",
+      "en": "Beggar",
+      "de": "Bettler",
+      "price": "2",
+      "type": [
+        "Action",
+        "Reaction"
+      ]
+    },
+    {
+      "id": "aeb5ebd4-a4d5-4927-beb3-60d62392614d",
+      "en": "Squire",
+      "de": "Knappe",
+      "price": "2",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "f3992d5a-b505-44d6-ab36-01122e200fea",
+      "en": "Vagrant",
+      "de": "Landstreicher",
+      "price": "2",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "38bcc9d8-ec12-4ca1-bf57-0704e68ca140",
+      "en": "Forager",
+      "de": "Sammler",
+      "price": "3",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "ad027c46-9588-4157-861f-3fbb7a83bd9b",
+      "en": "Hermit",
+      "de": "Einsiedler",
+      "price": "3",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "924270b5-43c4-4a78-9a22-62d5cc1982ac",
+      "en": "Market Square",
+      "de": "Marktplatz",
+      "price": "3",
+      "type": [
+        "Action",
+        "Reaction"
+      ]
+    },
+    {
+      "id": "68038c19-7a7d-475d-9700-3561a0da18cb",
+      "en": "Sage",
+      "de": "Weiser",
+      "price": "3",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "0a798c2f-f8d8-462a-8668-39618dda5a7f",
+      "en": "Storeroom",
+      "de": "Vorratskammer",
+      "price": "3",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "b918b2cb-bd7f-4b1e-bab3-b826bc565c27",
+      "en": "Urchin",
+      "de": "Strolch",
+      "price": "3",
+      "type": [
+        "Action",
+        "Attack"
+      ]
+    },
+    {
+      "id": "c3a52361-f0a1-403e-827d-ee8fd0c45394",
+      "en": "Armory",
+      "de": "Rüstkammer",
+      "price": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "5ed252e3-67f1-4888-afeb-b40436765143",
+      "en": "Death Cart",
+      "de": "Karren",
+      "price": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "9e0cf518-3d11-48a2-bc7a-0dd738b18ff2",
+      "en": "Feodum",
+      "de": "Lehen",
+      "price": "4",
+      "type": [
+        "Victory"
+      ]
+    },
+    {
+      "id": "43291d5e-1136-468a-9a9c-0982345eaeea",
+      "en": "Fortress",
+      "de": "Festung",
+      "price": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "857260d8-5519-4b48-8abf-dd6786fc9f06",
+      "en": "Ironmonger",
+      "de": "Eisenhändler",
+      "price": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "1216e748-7007-4f8f-9a67-947200e3f815",
+      "en": "Marauder",
+      "de": "Plünderer",
+      "price": "4",
+      "type": [
+        "Action",
+        "Attack",
+        "Looter"
+      ]
+    },
+    {
+      "id": "97a2d5bd-d4d2-458a-a241-a925da0f1bc5",
+      "en": "Procession",
+      "de": "Prozession",
+      "price": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "a2563d60-faee-4006-99c8-a93914d00215",
+      "en": "Rats",
+      "de": "Ratten",
+      "price": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "8c2753ce-e18a-468a-aa92-3aab59fba6c5",
+      "en": "Scavenger",
+      "de": "Plünderer",
+      "price": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "0d76a02d-802b-4ec0-972d-2e46e1a345fc",
+      "en": "Wandering Minstrel",
+      "de": "Fahrender Sänger",
+      "price": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "754fdfdd-f59b-494d-96aa-3502479af7a5",
+      "en": "Band of Misfits",
+      "de": "Bande",
+      "price": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "81500814-b161-4d84-b819-c3d8eda4be48",
+      "en": "Bandit Camp",
+      "de": "Räuberlager",
+      "price": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "c1725514-375c-4132-8801-0951cb052455",
+      "en": "Catacombs",
+      "de": "Katakomben",
+      "price": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "b14053a5-91de-4d28-81e4-d2d7553f41d1",
+      "en": "Count",
+      "de": "Graf",
+      "price": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "d3295383-5749-4426-acb7-b01d1426da44",
+      "en": "Counterfeit",
+      "de": "Falschgeld",
+      "price": "5",
+      "type": [
+        "Treasure"
+      ]
+    },
+    {
+      "id": "4fa3b8f6-1967-4fdd-b04f-535fe3d856c7",
+      "en": "Cultist",
+      "de": "Kultist",
+      "price": "5",
+      "type": [
+        "Action",
+        "Attack",
+        "Looter"
+      ]
+    },
+    {
+      "id": "587ee392-5408-4251-85c2-2d38ea143fec",
+      "en": "Graverobber",
+      "de": "Grabräuber",
+      "price": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "87a3cfc0-8a90-4446-b9c0-40ea4d4721e4",
+      "en": "Junk Dealer",
+      "de": "Schrotthändler",
+      "price": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "e8b1a094-1d7f-4fa8-825c-46dbf954268a",
+      "en": "Mystic",
+      "de": "Mystikerin",
+      "price": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "a67b22c5-41ca-4090-ba4e-486be27b4740",
+      "en": "Pillage",
+      "de": "Brandschatzung",
+      "price": "5",
+      "type": [
+        "Action",
+        "Attack"
+      ]
+    },
+    {
+      "id": "67e8b0de-43b3-4ac2-a9da-b3e8df6b703a",
+      "en": "Rogue",
+      "de": "Banditin",
+      "price": "5",
+      "type": [
+        "Action",
+        "Attack"
+      ]
+    },
+    {
+      "id": "1189683d-20d3-43b0-a14d-54369ec2b757",
+      "en": "Altar",
+      "de": "Altar",
+      "price": "6",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "a513fd03-5da0-4920-a388-848e7999dc62",
+      "en": "Hunting Grounds",
+      "de": "Jagdgründe",
+      "price": "6",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "e9cfe5e2-997c-49a7-922a-d6881befe8b1",
+      "en": "Knights",
+      "de": "Ritter",
+      "price": "5",
+      "type": [
+        "Action",
+        "Attack",
+        "Knight"
+      ]
+    },
+    {
+      "id": "30bec60f-bd6b-48b6-9b5c-723c43e287fa",
+      "en": "Coin of the Realm",
+      "de": "Reichsmünze",
+      "price": "2",
+      "type": [
+        "Treasure",
+        "Reserve"
+      ]
+    },
+    {
+      "id": "7ed63277-fef2-4879-ba29-a1d4172d43ef",
+      "en": "Page",
+      "de": "Page",
+      "price": "2",
+      "type": [
+        "Action",
+        "Traveller"
+      ]
+    },
+    {
+      "id": "853a4be8-6965-4e1a-8f02-d84620a7b6f0",
+      "en": "Peasant",
+      "de": "Bauer",
+      "price": "2",
+      "type": [
+        "Action",
+        "Traveller"
+      ]
+    },
+    {
+      "id": "1296e420-ae0e-4f11-a9cf-0f634ee3556a",
+      "en": "Ratcatcher",
+      "de": "Rattenfänger",
+      "price": "2",
+      "type": [
+        "Action",
+        "Reserve"
+      ]
+    },
+    {
+      "id": "4d42f85f-83b0-4ce2-8f2f-39d2cf65d2d1",
+      "en": "Raze",
+      "de": "Niederbrennen",
+      "price": "2",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "f9a9c1d7-b12d-4930-8cec-8695de14896f",
+      "en": "Amulet",
+      "de": "Amulett",
+      "price": "3",
+      "type": [
+        "Action",
+        "Duration"
+      ]
+    },
+    {
+      "id": "280bfc7f-1be0-4577-8488-8f96972086b1",
+      "en": "Caravan Guard",
+      "de": "Karawanenwache",
+      "price": "3",
+      "type": [
+        "Action",
+        "Duration",
+        "Reaction"
+      ]
+    },
+    {
+      "id": "68797d39-aa3a-4c80-95a2-f46bea1f74ed",
+      "en": "Dungeon",
+      "de": "Verlies",
+      "price": "3",
+      "type": [
+        "Action",
+        "Duration"
+      ]
+    },
+    {
+      "id": "9150ee06-1122-4f51-9a39-7ec78e58dfc1",
+      "en": "Gear",
+      "de": "Ausrüstung",
+      "price": "3",
+      "type": [
+        "Action",
+        "Duration"
+      ]
+    },
+    {
+      "id": "cfceb1b2-0b0a-471f-bd2b-b54971c35bbf",
+      "en": "Guide",
+      "de": "Führer",
+      "price": "3",
+      "type": [
+        "Action",
+        "Reserve"
+      ]
+    },
+    {
+      "id": "2097c3a0-cfcf-42e9-abf8-ad1e11158c0b",
+      "en": "Duplicate",
+      "de": "Duplikat",
+      "price": "4",
+      "type": [
+        "Action",
+        "Reserve"
+      ]
+    },
+    {
+      "id": "e1a4b4da-95b8-4385-932b-84cc72cc28f5",
+      "en": "Magpie",
+      "de": "Elster",
+      "price": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "72bb63e4-1813-486d-baf1-314e0ae6f748",
+      "en": "Messenger",
+      "de": "Bote",
+      "price": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "1c180370-c801-4cb1-bc63-e5401903c618",
+      "en": "Miser",
+      "de": "Geizhals",
+      "price": "4",
+      "type": [
+        "Action",
+        "Reserve"
+      ]
+    },
+    {
+      "id": "317e2880-92ee-4b05-88e8-9b82c2e52e67",
+      "en": "Port",
+      "de": "Hafen",
+      "price": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "5737be80-fda3-4c2f-bbb1-9d92d1fdb0ff",
+      "en": "Ranger",
+      "de": "Waldläufer",
+      "price": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "08c27f5b-d430-4a31-b39b-314c080cf110",
+      "en": "Transmogrify",
+      "de": "Verwandlung",
+      "price": "4",
+      "type": [
+        "Action",
+        "Reserve"
+      ]
+    },
+    {
+      "id": "7eb26c75-7b90-46d6-9f62-bcf607ed1c3f",
+      "en": "Artificer",
+      "de": "Bastler",
+      "price": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "4922ef88-5e90-41b5-be93-41f7457677b6",
+      "en": "Bridge Troll",
+      "de": "Brückentroll",
+      "price": "5",
+      "type": [
+        "Action",
+        "Attack",
+        "Duration"
+      ]
+    },
+    {
+      "id": "4fa27ebc-d1d6-439a-8ed0-8d3e9b36fa3d",
+      "en": "Distant Lands",
+      "de": "Ferne Länder",
+      "price": "5",
+      "type": [
+        "Action",
+        "Reserve",
+        "Victory"
+      ]
+    },
+    {
+      "id": "1acd4059-5813-4004-913a-d4b712109998",
+      "en": "Giant",
+      "de": "Riese",
+      "price": "5",
+      "type": [
+        "Action",
+        "Attack",
+        "Journey"
+      ]
+    },
+    {
+      "id": "92ecc544-e362-435a-85d6-a59f273f591c",
+      "en": "Haunted Woods",
+      "de": "Spukwald",
+      "price": "5",
+      "type": [
+        "Action",
+        "Attack",
+        "Duration"
+      ]
+    },
+    {
+      "id": "00a8e314-fe84-426b-9c35-5aee9babe54c",
+      "en": "Lost City",
+      "de": "Verlorene Stadt",
+      "price": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "2f56a1f8-a974-48a7-be86-268b2f8312a0",
+      "en": "Relic",
+      "de": "Reliquie",
+      "price": "5",
+      "type": [
+        "Treasure",
+        "Attack"
+      ]
+    },
+    {
+      "id": "75219d5d-062b-4f4f-b741-f2792a0a69b1",
+      "en": "Royal Carriage",
+      "de": "Kutsche",
+      "price": "5",
+      "type": [
+        "Action",
+        "Reserve"
+      ]
+    },
+    {
+      "id": "afc879e4-d1fa-4496-bdbe-6d581640a4ae",
+      "en": "Storyteller",
+      "de": "Geschichtenerzähler",
+      "price": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "48a64a5a-d2b4-411a-9222-3a06c21ed4db",
+      "en": "Swamp Hag",
+      "de": "Sumpfhexe",
+      "price": "5",
+      "type": [
+        "Action",
+        "Attack",
+        "Duration"
+      ]
+    },
+    {
+      "id": "ec3080cc-2b57-4f2d-b353-3ae7270bee64",
+      "en": "Treasure Trove",
+      "de": "Schatztruhe",
+      "price": "5",
+      "type": [
+        "Treasure"
+      ]
+    },
+    {
+      "id": "0c7491e0-4bec-4ecc-9a02-273d7c1768f8",
+      "en": "Wine Merchant",
+      "de": "Weinhändler",
+      "price": "5",
+      "type": [
+        "Action",
+        "Reserve"
+      ]
+    },
+    {
+      "id": "faa39ef8-15bf-4674-9d23-018fb2728d42",
+      "en": "Hireling",
+      "de": "Söldner",
+      "price": "6",
+      "type": [
+        "Action",
+        "Duration"
+      ]
+    },
+    {
+      "id": "93d9732e-f57b-4fdc-bac1-874ca713bce1",
+      "en": "Engineer",
+      "de": "Ingenieur",
+      "price": "4",
+      "type": [
+        "Action",
+        "Reserve"
+      ]
+    },
+    {
+      "id": "a00517b8-ae63-4969-9236-37a497413857",
+      "en": "City Quarter",
+      "de": "Viertel",
+      "price": "8",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "30dffe71-51c6-4ded-af41-8f72dfb7e64c",
+      "en": "Royal Blacksmith",
+      "de": "Königliche Schmiede",
+      "price": "8",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "9ded5548-2c33-469c-a81b-2a6346f02632",
+      "en": "Catapult/Rocks",
+      "de": "Katapult/Steine",
+      "price": "3",
+      "type": [
+        "Action",
+        "Attack"
+      ]
+    },
+    {
+      "id": "5ee1e1c8-c5d7-42bd-ab68-86f77f051899",
+      "en": "Chariot Race",
+      "de": "Wagenrennen",
+      "price": "3",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "47e82f2f-99f6-46d0-843b-cbbd12b68946",
+      "en": "Encampment/Plunder",
+      "de": "Lager/Plünderung",
+      "price": "2",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "4559fa1f-d3a7-4999-b983-6792a603fa59",
+      "en": "Farmers' Market",
+      "de": "Bauernmarkt",
+      "price": "3",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "7d91dbd4-7410-4cc0-8c82-c3b669c929c4",
+      "en": "Gladiator/Fortune",
+      "de": "Gladiator/Vermögen",
+      "price": "3",
+      "type": [
+        "Action",
+        "Attack"
+      ]
+    },
+    {
+      "id": "66f354f4-744e-42f8-a9b8-d2ee57111e0f",
+      "en": "Patrician/Emporium",
+      "de": "Patrizier/Emporium",
+      "price": "2",
+      "type": [
+        "Action",
+        "Victory"
+      ]
+    },
+    {
+      "id": "328642cc-43d8-4a01-8c83-e74c428df84f",
+      "en": "Settlers/Bustling Village",
+      "de": "Siedler/Belebtes Dorf",
+      "price": "2",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "58e80bf3-48fb-44f7-988e-5d5f18da79bf",
+      "en": "Villa",
+      "de": "Villa",
+      "price": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "e110ee1b-6251-4f4d-8e51-31338fbcfade",
+      "en": "Archive",
+      "de": "Archiv",
+      "price": "5",
+      "type": [
+        "Action",
+        "Duration"
+      ]
+    },
+    {
+      "id": "d1f9f506-08f5-4c2d-9b6a-69e2c260f414",
+      "en": "Capital",
+      "de": "Kapital",
+      "price": "5",
+      "type": [
+        "Treasure"
+      ]
+    },
+    {
+      "id": "fe42989e-a19f-4e3a-98e5-07706c74b62a",
+      "en": "Charm",
+      "de": "Talisman",
+      "price": "5",
+      "type": [
+        "Treasure"
+      ]
+    },
+    {
+      "id": "fb944760-1887-43aa-bf40-64f3bee9530e",
+      "en": "Crown",
+      "de": "Krone",
+      "price": "5",
+      "type": [
+        "Action",
+        "Treasure"
+      ]
+    },
+    {
+      "id": "980ffd76-a360-4990-8dd4-d8c34e0233ae",
+      "en": "Enchantress",
+      "de": "Zauberin",
+      "price": "5",
+      "type": [
+        "Action",
+        "Attack",
+        "Duration"
+      ]
+    },
+    {
+      "id": "f9cac423-635a-406e-81c7-0cd23cbbcff7",
+      "en": "Groundskeeper",
+      "de": "Gärtner",
+      "price": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "4bc4ac14-1003-4946-90fd-6c39d2b3642f",
+      "en": "Legionary",
+      "de": "Legionär",
+      "price": "5",
+      "type": [
+        "Action",
+        "Attack"
+      ]
+    },
+    {
+      "id": "84902582-6991-4991-ab40-da6d047cd84b",
+      "en": "Sacrifice",
+      "de": "Opfer",
+      "price": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "ecf8d227-f418-4b28-89b7-481965721eb1",
+      "en": "Temple",
+      "de": "Tempel",
+      "price": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "32f524a3-181e-4a8f-9729-9aa405073a28",
+      "en": "Wild Hunt",
+      "de": "Wilde Jagd",
+      "price": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "3f78d3a8-bf27-4d2e-b51a-0a325e5fd2a0",
+      "en": "Forum",
+      "de": "Forum",
+      "price": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "d0c50112-9156-47b6-b756-909126db6071",
+      "en": "Faithful Hound",
+      "de": "Treuer Hund",
+      "price": "2",
+      "type": [
+        "Action",
+        "Reaction"
+      ]
+    },
+    {
+      "id": "ccadbe71-9f94-43e1-9da4-6793f367f2ef",
+      "en": "Guardian",
+      "de": "Wächter",
+      "price": "2",
+      "type": [
+        "Action",
+        "Night",
+        "Duration"
+      ]
+    },
+    {
+      "id": "556f55c1-9772-4c62-96bc-124cdcbbdc41",
+      "en": "Pixie",
+      "de": "Fee",
+      "price": "2",
+      "type": [
+        "Action",
+        "Fate"
+      ]
+    },
+    {
+      "id": "e7aca40e-6037-4529-b66b-40a4fa01dae2",
+      "en": "Tracker",
+      "de": "Fährtenleser",
+      "price": "2",
+      "type": [
+        "Action",
+        "Fate"
+      ]
+    },
+    {
+      "id": "77ee5ae6-2111-4f58-9776-1ef14bae7874",
+      "en": "Changeling",
+      "de": "Wechselbalg",
+      "price": "3",
+      "type": [
+        "Night"
+      ]
+    },
+    {
+      "id": "3ec74f5b-d0c1-4431-a984-a8c43948e595",
+      "en": "Fool",
+      "de": "Tor",
+      "price": "3",
+      "type": [
+        "Action",
+        "Fate"
+      ]
+    },
+    {
+      "id": "e702e36d-a4c6-4155-b073-8c697e928184",
+      "en": "Ghost Town",
+      "de": "Geisterstadt",
+      "price": "3",
+      "type": [
+        "Night",
+        "Duration"
+      ]
+    },
+    {
+      "id": "8b26b6bf-6d28-46bd-a1aa-7ae19743e228",
+      "en": "Leprechaun",
+      "de": "Kobold",
+      "price": "3",
+      "type": [
+        "Night",
+        "Fate"
+      ]
+    },
+    {
+      "id": "7d4abec8-bcd9-4606-8940-403378597a08",
+      "en": "Night Watchman",
+      "de": "Nachtwächter",
+      "price": "3",
+      "type": [
+        "Night"
+      ]
+    },
+    {
+      "id": "c61e0c1d-5290-4b92-b317-d4351c9cad68",
+      "en": "Secret Cave",
+      "de": "Geheime Höhle",
+      "price": "3",
+      "type": [
+        "Action",
+        "Duration"
+      ]
+    },
+    {
+      "id": "f1c19cf8-0c3f-4376-8410-ba4aa759033b",
+      "en": "Bard",
+      "de": "Barde",
+      "price": "4",
+      "type": [
+        "Action",
+        "Fate"
+      ]
+    },
+    {
+      "id": "90cf7822-1bc6-4104-aa12-612484c778a4",
+      "en": "Blessed Village",
+      "de": "Seligen Dorf",
+      "price": "4",
+      "type": [
+        "Action",
+        "Fate"
+      ]
+    },
+    {
+      "id": "b0d996fc-6b5a-47bb-895c-1e992b283eae",
+      "en": "Cemetery",
+      "de": "Friedhof",
+      "price": "4",
+      "type": [
+        "Night"
+      ]
+    },
+    {
+      "id": "db885796-70e8-40e1-a75d-770af1037afb",
+      "en": "Conclave",
+      "de": "Konklave",
+      "price": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "9647c997-cdeb-4388-a9dc-162c05549a89",
+      "en": "Den of Sin",
+      "de": "Sündenhöhle",
+      "price": "5",
+      "type": [
+        "Night",
+        "Duration"
+      ]
+    },
+    {
+      "id": "94785332-e840-4eb4-a6eb-083a1aca4926",
+      "en": "Devil's Workshop",
+      "de": "Teufelswerkstatt",
+      "price": "4",
+      "type": [
+        "Night"
+      ]
+    },
+    {
+      "id": "9d8b726d-c3b9-4430-9236-1ce386d7d101",
+      "en": "Druid",
+      "de": "Druide",
+      "price": "3",
+      "type": [
+        "Action",
+        "Fate"
+      ]
+    },
+    {
+      "id": "b9e8713f-6763-40ca-87a9-c5bd369ccbe1",
+      "en": "Exorcist",
+      "de": "Exorzist",
+      "price": "3",
+      "type": [
+        "Night"
+      ]
+    },
+    {
+      "id": "b26ab094-6d56-477d-b2c8-8d92b32a6aa0",
+      "en": "Monastery",
+      "de": "Kloster",
+      "price": "2",
+      "type": [
+        "Night"
+      ]
+    },
+    {
+      "id": "39677120-6955-4ace-aa87-9a3384ffe218",
+      "en": "Necromancer",
+      "de": "Nekromant",
+      "price": "4",
+      "type": [
+        "Action",
+        "Zombie"
+      ]
+    },
+    {
+      "id": "e69094ba-b53d-4930-a057-029ae96e7422",
+      "en": "Pooka",
+      "de": "Pooka",
+      "price": "5",
+      "type": [
+        "Action",
+        "Fate"
+      ]
+    },
+    {
+      "id": "4c8b7076-eab1-47a2-998d-f6454d35836f",
+      "en": "Sacred Grove",
+      "de": "Heiliger Hain",
+      "price": "5",
+      "type": [
+        "Action",
+        "Fate"
+      ]
+    },
+    {
+      "id": "92c48018-a21b-4a88-b04d-d018665b8b9f",
+      "en": "Shepherd",
+      "de": "Schäfer",
+      "price": "4",
+      "type": [
+        "Action",
+        "Reaction"
+      ]
+    },
+    {
+      "id": "febce553-485c-4aea-aeee-22044cd1aad5",
+      "en": "Skulk",
+      "de": "Schleicher",
+      "price": "4",
+      "type": [
+        "Action",
+        "Attack",
+        "Hex"
+      ]
+    },
+    {
+      "id": "efe3c410-f345-439d-83a6-7fd3e7b8bd46",
+      "en": "Tormentor",
+      "de": "Quäler",
+      "price": "5",
+      "type": [
+        "Action",
+        "Attack",
+        "Doom"
+      ]
+    },
+    {
+      "id": "d531681c-aef7-4758-b90d-b0b2585279df",
+      "en": "Tragic Hero",
+      "de": "Tragischer Held",
+      "price": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "0ab95743-fe5f-4753-94c8-606b3c92a104",
+      "en": "Vampire",
+      "de": "Vampir",
+      "price": "5",
+      "type": [
+        "Night",
+        "Attack"
+      ]
+    },
+    {
+      "id": "8fc01fe5-e9a6-4f0e-9c1f-ff68480afe7d",
+      "en": "Werewolf",
+      "de": "Werwolf",
+      "price": "5",
+      "type": [
+        "Night",
+        "Attack"
+      ]
+    },
+    {
+      "id": "ea5c2ef8-c3ae-4f49-b5f6-b845adb34507",
+      "en": "Cursed Village",
+      "de": "Verfluchtes Dorf",
+      "price": "5",
+      "type": [
+        "Action",
+        "Hex"
+      ]
+    },
+    {
+      "id": "13b065d0-b570-42e7-a279-4c9bf24ae4ee",
+      "en": "Idol",
+      "de": "Götzenbild",
+      "price": "5",
+      "type": [
+        "Treasure",
+        "Fate"
+      ]
+    },
+    {
+      "id": "d5c3ad53-e8e3-4069-b978-af9bbd07dded",
+      "en": "Raider",
+      "de": "Räuber",
+      "price": "6",
+      "type": [
+        "Night",
+        "Attack"
+      ]
+    },
+    {
+      "id": "a524719f-fb1c-479c-bb3f-287dd9b9d1f8",
+      "en": "Border Guard",
+      "de": "Grenzwache",
+      "price": "2",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "aecbd7ab-03b0-45c6-8644-6112bd7d9a13",
+      "en": "Ducat",
+      "de": "Dukat",
+      "price": "2",
+      "type": [
+        "Treasure"
+      ]
+    },
+    {
+      "id": "b2d13945-8d3c-423f-9567-839271cb6c11",
+      "en": "Lackeys",
+      "de": "Handlanger",
+      "price": "2",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "f74018e6-6e5b-4bfe-8d05-d4fd3416aee6",
+      "en": "Acting Troupe",
+      "de": "Schauspieltruppe",
+      "price": "3",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "b2995a0c-58af-4588-bc90-90f3c3d51600",
+      "en": "Cargo Ship",
+      "de": "Frachtschiff",
+      "price": "3",
+      "type": [
+        "Action",
+        "Duration"
+      ]
+    },
+    {
+      "id": "d2e0328b-cea4-4758-baad-32177dd817fc",
+      "en": "Experiment",
+      "de": "Experiment",
+      "price": "3",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "2b5fe12f-b434-47fd-bbe5-8f16b9a8a02c",
+      "en": "Flag Bearer",
+      "de": "Fahnenträger",
+      "price": "3",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "57f48e91-7593-408b-a22d-96069b33cf3f",
+      "en": "Hideout",
+      "de": "Versteck",
+      "price": "3",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "9408dc9e-f1c1-467c-9387-fc4685b1551e",
+      "en": "Inventor",
+      "de": "Erfinder",
+      "price": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "d868ff2a-86da-4c27-9034-5ea59a664ae8",
+      "en": "Mountain Village",
+      "de": "Bergdorf",
+      "price": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "67b6101f-39ff-42a2-ae88-5c02ed2eb34a",
+      "en": "Patron",
+      "de": "Förderer",
+      "price": "4",
+      "type": [
+        "Action",
+        "Reaction"
+      ]
+    },
+    {
+      "id": "5aae0787-e144-4496-86bb-83f529cd8b21",
+      "en": "Priest",
+      "de": "Priester",
+      "price": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "f6afbff9-9eb8-4d23-8a93-3c752af30d6f",
+      "en": "Research",
+      "de": "Forschung",
+      "price": "4",
+      "type": [
+        "Action",
+        "Duration"
+      ]
+    },
+    {
+      "id": "f548060a-d67c-4e37-aa24-7734449c4473",
+      "en": "Silk Merchant",
+      "de": "Seidenhändler",
+      "price": "4",
+      "type": [
+        "Action",
+        "Reaction"
+      ]
+    },
+    {
+      "id": "85082ee3-9b07-45cf-8f87-516fd5ac80a4",
+      "en": "Spices",
+      "de": "Gewürze",
+      "price": "4",
+      "type": [
+        "Treasure"
+      ]
+    },
+    {
+      "id": "ab9434ef-6a55-4244-8b77-cae96f248546",
+      "en": "Swashbuckler",
+      "de": "Haudegen",
+      "price": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "539ef1a1-fdf5-4682-90d7-266662292167",
+      "en": "Treasurer",
+      "de": "Schatzmeister",
+      "price": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "66e1d9ae-9b60-4b4a-9ea0-5339b59ab175",
+      "en": "Villain",
+      "de": "Schurke",
+      "price": "4",
+      "type": [
+        "Action",
+        "Attack"
+      ]
+    },
+    {
+      "id": "acbef055-e29b-4e9b-a02e-5a8fab5a6a5e",
+      "en": "Scepter",
+      "de": "Zepter",
+      "price": "5",
+      "type": [
+        "Treasure"
+      ]
+    },
+    {
+      "id": "4274abd1-740f-459d-a717-b646157a521b",
+      "en": "Scholar",
+      "de": "Gelehrter",
+      "price": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "dd077478-c7d1-47e4-9459-cb10ef362846",
+      "en": "Sculptor",
+      "de": "Bildhauer",
+      "price": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "9bf6560c-aaea-4e39-96d5-469e43f32c24",
+      "en": "Recruiter",
+      "de": "Rekrutierer",
+      "price": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "306b25f2-50cf-46cf-913e-1d4e93b6399a",
+      "en": "Seer",
+      "de": "Seherin",
+      "price": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "16f6f830-ab5e-48e3-a54b-d375fd080113",
+      "en": "Spices",
+      "de": "Gewürze",
+      "price": "4",
+      "type": [
+        "Treasure"
+      ]
+    },
+    {
+      "id": "5ad0ed0d-19cd-4796-ad4c-2246f32e906b",
+      "en": "Black Cat",
+      "de": "Schwarze Katze",
+      "price": "2",
+      "type": [
+        "Action",
+        "Reaction"
+      ]
+    },
+    {
+      "id": "68e8fd70-cc01-45dc-9b3a-f08923c2ea07",
+      "en": "Sheepdog",
+      "de": "Schäferhund",
+      "price": "3",
+      "type": [
+        "Action",
+        "Reaction"
+      ]
+    },
+    {
+      "id": "3f671fd8-0235-47cf-9870-b49091c88db9",
+      "en": "Sleigh",
+      "de": "Schlitten",
+      "price": "2",
+      "type": [
+        "Action",
+        "Reaction"
+      ]
+    },
+    {
+      "id": "c1a2a0e9-104c-4e72-85d1-c479ae56a286",
+      "en": "Supplies",
+      "de": "Nachschub",
+      "price": "2",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "2376dbdb-5a27-4f9a-8959-f72a83a1e57b",
+      "en": "Wayfarer",
+      "de": "Wanderer",
+      "price": "6",
+      "type": [
+        "Action",
+        "Traveller"
+      ]
+    },
+    {
+      "id": "7809c597-ce11-4cb7-a780-548be3b11b24",
+      "en": "Barge",
+      "de": "Lastkahn",
+      "price": "5",
+      "type": [
+        "Action",
+        "Duration"
+      ]
+    },
+    {
+      "id": "06528829-486e-4320-b744-8048a55555fd",
+      "en": "Bounty Hunter",
+      "de": "Kopfgeldjäger",
+      "price": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "b58225ba-e96d-437f-b50c-a713d4ef3fdb",
+      "en": "Camel Train",
+      "de": "Kamelkarawane",
+      "price": "3",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "026a6ada-9672-447a-b923-f2323658b42b",
+      "en": "Cardinal",
+      "de": "Kardinal",
+      "price": "4",
+      "type": [
+        "Action",
+        "Attack"
+      ]
+    },
+    {
+      "id": "233ceeae-f4a7-4104-8f88-93f67c42c5d1",
+      "en": "Cavalry",
+      "de": "Reiterei",
+      "price": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "0976679b-c832-4e46-99b7-407250603d93",
+      "en": "Destrier",
+      "de": "Streitross",
+      "price": "6",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "000b453e-3883-4dae-aa4b-22a8e2d61e20",
+      "en": "Displace",
+      "de": "Verdrängen",
+      "price": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "aed9a49f-566e-4d1b-a9dd-317444a7d400",
+      "en": "Falconer",
+      "de": "Falkner",
+      "price": "4",
+      "type": [
+        "Action",
+        "Reaction"
+      ]
+    },
+    {
+      "id": "41d46850-acfe-43e3-b2e4-d31fccbc8bf6",
+      "en": "Fisherman",
+      "de": "Fischer",
+      "price": "2",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "a4bdf505-9704-4de8-bf84-865ff6f1a360",
+      "en": "Gatekeeper",
+      "de": "Torwächter",
+      "price": "5",
+      "type": [
+        "Action",
+        "Attack"
+      ]
+    },
+    {
+      "id": "c8e17848-c659-477a-9340-fef991332f97",
+      "en": "Goatherd",
+      "de": "Ziegenhirt",
+      "price": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "b727fd5e-b0a0-4729-9cff-0d6174175c03",
+      "en": "Groom",
+      "de": "Pferdeknecht",
+      "price": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "f1475e5f-4d6a-4f9a-9619-eb32ca3e8429",
+      "en": "Hostelry",
+      "de": "Herberge",
+      "price": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "77e7752d-26a7-450e-8d86-cdc51b371f0e",
+      "en": "Hunting Lodge",
+      "de": "Jagdhaus",
+      "price": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "fec59c37-60c8-4403-a225-ffa0c8c70396",
+      "en": "Kiln",
+      "de": "Brennerei",
+      "price": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "a4738693-7215-44ab-a605-f140df0dd6c8",
+      "en": "Livery",
+      "de": "Lehnsgut",
+      "price": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "e8f83beb-5b5f-40f7-be80-d2b2765b099e",
+      "en": "Mastermind",
+      "de": "Mastermind",
+      "price": "8",
+      "type": [
+        "Action",
+        "Duration"
+      ]
+    },
+    {
+      "id": "05673e52-607f-4b70-aacd-9d74a80a3dda",
+      "en": "Paddock",
+      "de": "Koppel",
+      "price": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "8c236192-d897-4656-99c0-9731e91ac595",
+      "en": "Sanctuary",
+      "de": "Zufluchtsort",
+      "price": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "75b50759-9f3b-4e36-b9ae-60dc3ee7f1b3",
+      "en": "Scrap",
+      "de": "Altmaterial",
+      "price": "3",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "6419c464-16a6-4efc-8862-402ffd619361",
+      "en": "Snowy Village",
+      "de": "Schneedorf",
+      "price": "2",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "c29346b5-f471-403d-b4ce-9f4bc0e0b2d8",
+      "en": "Stockpile",
+      "de": "Vorratshaufen",
+      "price": "3",
+      "type": [
+        "Treasure"
+      ]
+    },
+    {
+      "id": "ffe5a3d3-7544-4d21-a287-65880a15b24d",
+      "en": "Village Green",
+      "de": "Dorfanger",
+      "price": "4",
+      "type": [
+        "Action",
+        "Reaction"
+      ]
+    },
+    {
+      "id": "1cb502c9-507a-454b-bf02-6a124aed35a9",
+      "en": "Animal Fair",
+      "de": "Tierschau",
+      "price": "7",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "dca4c7aa-b867-4433-bbd7-4b03bf2cddc8",
+      "en": "Bauble",
+      "de": "Klimbim",
+      "price": "2",
+      "type": [
+        "Treasure"
+      ]
+    },
+    {
+      "id": "4e5afb31-8b94-4e97-88c4-6f038b2be056",
+      "en": "Broker",
+      "de": "Makler",
+      "price": "3",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "fef826a4-50d1-417f-bb4c-d20120161309",
+      "en": "Carpenter",
+      "de": "Zimmermann",
+      "price": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "059018d8-d8c1-4769-a506-bb323c981264",
+      "en": "Clashes",
+      "de": "Auseinandersetzungen",
+      "price": "5",
+      "type": [
+        "Action",
+        "Attack"
+      ]
+    },
+    {
+      "id": "439076d3-240a-4d33-b053-7c1fe8ae1684",
+      "en": "Contract",
+      "de": "Vertrag",
+      "price": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "0d83fbbc-44db-4ffa-8d58-7d2c1f70d442",
+      "en": "Crystal Ball",
+      "de": "Kristallkugel",
+      "price": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "e6efdea0-e827-47e3-913c-6c662ab88d34",
+      "en": "Emissary",
+      "de": "Emissär",
+      "price": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "fc869b85-1dcd-4d5f-9660-9f6fb4b9e81e",
+      "en": "Fortune Hunter",
+      "de": "Glücksritter",
+      "price": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "dba004e0-b46c-4763-a492-1ef0a02ff5e4",
+      "en": "Galleria",
+      "de": "Galerie",
+      "price": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "f678f219-b1ea-4a81-89e1-ab781bb818a9",
+      "en": "Guildmaster",
+      "de": "Gildenmeister",
+      "price": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "48a1ce08-dd2c-4989-afdf-179b957c0b09",
+      "en": "Importer",
+      "de": "Importeur",
+      "price": "3",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "f7756fdd-15a9-4a22-ac74-9c40eb554fa3",
+      "en": "Innkeeper",
+      "de": "Wirt",
+      "price": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "64337957-d54a-49de-ab79-5ce206172109",
+      "en": "King's Cache",
+      "de": "Königlicher Schatz",
+      "price": "7",
+      "type": [
+        "Treasure"
+      ]
+    },
+    {
+      "id": "cfc8babd-d80e-4a55-9bb8-19281b955fa0",
+      "en": "Modify",
+      "de": "Modifikation",
+      "price": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "537d0f35-9204-4083-aa32-87488b5a3118",
+      "en": "Odysseys",
+      "de": "Odysseen",
+      "price": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "bc65dc32-8e74-40f9-ac4b-de8a64e30b7f",
+      "en": "Overlord",
+      "de": "Oberaufseher",
+      "price": "8*",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "10a24bb5-408c-443b-87a6-55c5bc9388b6",
+      "en": "Piazza",
+      "de": "Piazza",
+      "price": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "19cd827a-ac19-441c-9302-093766c9577e",
+      "en": "Replace",
+      "de": "Ersetzen",
+      "price": "5",
+      "type": [
+        "Action",
+        "Attack"
+      ]
+    },
+    {
+      "id": "27c104b1-9f39-4bfb-ad5d-ad773a2fc209",
+      "en": "Scrap",
+      "de": "Altmaterial",
+      "price": "3",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "3f01bc1a-4280-47c9-be27-6c2d1bbe52b1",
+      "en": "Specialist",
+      "de": "Spezialist",
+      "price": "3",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "2aa073a3-020f-496d-8b8b-c1efbd839b87",
+      "en": "Swamp Shacks",
+      "de": "Sumpfhütten",
+      "price": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "914ce1ac-5ce2-41aa-a904-c3665f0dab6f",
+      "en": "Taskmaster",
+      "de": "Aufseher",
+      "price": "3",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "88327fe3-09ab-4e18-b33b-5c42e1161584",
+      "en": "Tools",
+      "de": "Werkzeuge",
+      "price": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "218d223f-4b10-49b9-aa0e-4b974fae7626",
+      "en": "Underling",
+      "de": "Untergebener",
+      "price": "2",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "4798f648-9ef9-421d-8091-759b6f076db3",
+      "en": "Witch's Hut",
+      "de": "Hexenhütte",
+      "price": "5",
+      "type": [
+        "Action",
+        "Attack"
+      ]
+    },
+    {
+      "id": "a0e86ca4-2a19-4d07-adad-f8060050b711",
+      "en": "Abundance",
+      "de": "Überfluss",
+      "price": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "154378e8-f25e-4e62-a10c-bc5836cbc7ec",
+      "en": "Astrolabe",
+      "de": "Astrolabium",
+      "price": "3",
+      "type": [
+        "Treasure"
+      ]
+    },
+    {
+      "id": "420260c1-3c70-4975-b33f-d2eebfa4fac5",
+      "en": "Barbarian",
+      "de": "Barbar",
+      "price": "4",
+      "type": [
+        "Action",
+        "Attack"
+      ]
+    },
+    {
+      "id": "7923b7ee-5943-4c21-97fb-d97f452841db",
+      "en": "Cage",
+      "de": "Käfig",
+      "price": "2",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "a401ab45-610d-4522-98b3-f84f513da1ab",
+      "en": "Canoe",
+      "de": "Kanu",
+      "price": "3",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "6c1174ff-dfcf-4fb4-81d2-16fd6a7223b4",
+      "en": "Cave",
+      "de": "Höhle",
+      "price": "2",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "5846a0c8-022e-4d32-91dd-d234add350c4",
+      "en": "Crew",
+      "de": "Mannschaft",
+      "price": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "b506aba3-f959-4a69-8dc4-74e28e58de19",
+      "en": "Cutthroat",
+      "de": "Halunke",
+      "price": "5",
+      "type": [
+        "Action",
+        "Attack"
+      ]
+    },
+    {
+      "id": "19dbb91e-a858-4ecc-aa0e-676bc83b4db7",
+      "en": "Dhow",
+      "de": "Dhauen",
+      "price": "3",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "899b3e06-5acd-480a-902c-78b633b796e6",
+      "en": "Fortune Hunter",
+      "de": "Glücksritter",
+      "price": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "4af5a474-b37a-4941-8989-7305792292d5",
+      "en": "Frigate",
+      "de": "Fregatte",
+      "price": "5",
+      "type": [
+        "Action",
+        "Attack"
+      ]
+    },
+    {
+      "id": "fc56e7d2-1cd7-446d-b82b-17ca7be95440",
+      "en": "Grotto",
+      "de": "Grotte",
+      "price": "2",
+      "type": [
+        "Action",
+        "Duration"
+      ]
+    },
+    {
+      "id": "f3620fe2-b9a7-4de2-9b64-44c441b0622f",
+      "en": "Harbor Village",
+      "de": "Hafendorf",
+      "price": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "b01703d1-5afd-4cfe-b5ac-bed0ca1f430c",
+      "en": "Junk Dealer",
+      "de": "Schrotthändler",
+      "price": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "ffa9e280-c4d7-410f-b2c7-eec4f65d4531",
+      "en": "Launch",
+      "de": "Stapellauf",
+      "price": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "a8e1ae06-b1de-44b5-adc2-c9b2116d52c5",
+      "en": "Longship",
+      "de": "Langschiff",
+      "price": "5",
+      "type": [
+        "Action",
+        "Duration"
+      ]
+    },
+    {
+      "id": "bb5417be-cb04-41cb-bf66-ff9dba7d91df",
+      "en": "Mapmaker",
+      "de": "Kartenmacher",
+      "price": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "8761bf21-1a40-456f-bca9-1e3810312e8e",
+      "en": "Maroon",
+      "de": "Aussetzen",
+      "price": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "01b0142f-b2f1-4626-ac47-0d6df8c26699",
+      "en": "Oasis",
+      "de": "Oase",
+      "price": "3",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "04167b05-904c-47cb-9303-31fe29cc70bd",
+      "en": "Pirate",
+      "de": "Pirat",
+      "price": "5",
+      "type": [
+        "Action",
+        "Attack"
+      ]
+    },
+    {
+      "id": "b8a109b7-d7ba-4b50-8cc6-a37a72b897b4",
+      "en": "Quartermaster",
+      "de": "Quartiermeister",
+      "price": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "7b4fb10b-0d98-46bb-9598-b8a1f0bbf1ad",
+      "en": "Raft",
+      "de": "Floß",
+      "price": "2",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "4ed437c7-dc80-4288-a81c-44f1bb489d8b",
+      "en": "Reef",
+      "de": "Riff",
+      "price": "3",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "a27165b4-2b40-4f66-b8b2-b94ae29c2579",
+      "en": "Sailor",
+      "de": "Seemann",
+      "price": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "9ca3beb0-fc79-4900-b174-4d73a8a57457",
+      "en": "Sea Chart",
+      "de": "Seekarte",
+      "price": "3",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "802cdc8d-7a07-4fb2-a4f1-f3ee6cc61974",
+      "en": "Shipwright",
+      "de": "Schiffbauer",
+      "price": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "c5354a35-e80d-4c5e-9a71-7452b96c2c1a",
+      "en": "Skipper",
+      "de": "Kapitän",
+      "price": "3",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "950c42c2-e4b8-418b-8eeb-78dba4ca397a",
+      "en": "Treasure Chest",
+      "de": "Schatzkiste",
+      "price": "5",
+      "type": [
+        "Treasure"
+      ]
+    },
+    {
+      "id": "f9733b67-2cb9-49b7-8532-94203be98ebf",
+      "en": "Treasure Map",
+      "de": "Schatzkarte",
+      "price": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "6cae1018-e437-44b9-a47e-c5d0edb6a76e",
+      "en": "Envoy",
+      "de": "Abgesandter",
+      "price": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "9f9b0e5f-0cd3-4fca-93ac-c1f4bcca21c2",
+      "en": "Black Market",
+      "de": "Schwarzmarkt",
+      "price": "3",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "cc40fc8f-d064-4332-92ce-d960356ab659",
+      "en": "Stash",
+      "de": "Geheimversteck",
+      "price": "5",
+      "type": [
+        "Treasure"
+      ]
+    },
+    {
+      "id": "a36d4717-5e24-4928-a7ac-60103f59c01b",
+      "en": "Walled Village",
+      "de": "Ummauertes Dorf",
+      "price": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "471f9175-5846-4e68-8222-068cbdd61001",
+      "en": "Governor",
+      "de": "Gouverneur",
+      "price": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "c22c7328-da77-447d-9e7f-c736c32d495c",
+      "en": "Prince",
+      "de": "Prinz",
+      "price": "8",
+      "type": [
+        "Action",
+        "Reserve"
+      ]
+    },
+    {
+      "id": "121fc594-aa5f-4a17-b179-c8ab8c3b4c97",
+      "en": "Summon",
+      "de": "Beschwörung",
+      "price": "5",
+      "type": [
+        "Event"
+      ]
+    },
+    {
+      "id": "052c02e3-aeb2-4adb-bb93-c883d7fae197",
+      "en": "Sauna/Avanto",
+      "de": "Sauna/Avanto",
+      "price": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "74634c79-0a86-4ad7-aeeb-7dbeb2feab85",
+      "en": "Dismantle",
+      "de": "Demontage",
+      "price": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "545ad7b4-6ece-402e-9056-5f8bbda32586",
+      "en": "Church",
+      "de": "Kirche",
+      "price": "3",
+      "type": [
+        "Action",
+        "Duration"
+      ]
+    },
+    {
+      "id": "ad5dcbf7-80f2-4891-8e4e-502ca02d7be7",
+      "en": "Captain",
+      "de": "Hauptmann",
+      "price": "6",
+      "type": [
+        "Action",
+        "Duration"
+      ]
+    },
+    {
+      "id": "3d0ad3dd-1b0c-470b-afa8-17f4df5d2445",
+      "en": "Robin Hood",
+      "de": "Robin Hood",
+      "price": "4",
+      "type": [
+        "Action",
+        "Attack"
+      ]
+    },
+    {
+      "id": "1830d126-b2d4-43ef-93e0-12d0d8f6ab3e",
+      "en": "Admiral",
+      "de": "Admiral",
+      "price": "6",
+      "type": [
+        "Event"
+      ]
+    },
+    {
+      "id": "0704c761-892d-411e-81b6-744d75b1561b",
+      "en": "Fortune Teller",
+      "de": "Wahrsagerin",
+      "price": "3",
+      "type": [
+        "Action",
+        "Attack"
+      ]
+    },
+    {
+      "id": "c5f063d4-15d6-486d-97f2-ec3946849b4b",
+      "en": "Hamlet",
+      "de": "Weiler",
+      "price": "2",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "55f1b13e-2372-45fa-93e3-e3ba786be8f5",
+      "en": "Fortune Teller",
+      "de": "Wahrsagerin",
+      "price": "3",
+      "type": [
+        "Action",
+        "Attack"
+      ]
+    },
+    {
+      "id": "907dc5f0-d733-41f7-8b74-7d2d0e1a4d11",
+      "en": "Menagerie",
+      "de": "Menagerie",
+      "price": "3",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "8ec495b6-c544-4df2-8215-00872d38c1a2",
+      "en": "Farming Village",
+      "de": "Bauerndorf",
+      "price": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "e4c6fa9a-b136-4acc-b867-fd182b69da1c",
+      "en": "Remake",
+      "de": "Umgestaltung",
+      "price": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "c9c0b741-505d-4761-81e3-a1f2d82cdf4d",
+      "en": "Tournament",
+      "de": "Turnier",
+      "price": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "73ae7d48-3c79-42ae-86f5-37b1b2134e97",
+      "en": "Young Witch",
+      "de": "Junge Hexe",
+      "price": "4",
+      "type": [
+        "Action",
+        "Attack"
+      ]
+    },
+    {
+      "id": "42ac8daf-7a82-4c18-a87b-8b19eaa5b168",
+      "en": "Harvest",
+      "de": "Ernte",
+      "price": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "6e2fe98c-c84e-4683-99d3-51b29919dc81",
+      "en": "Horn of Plenty",
+      "de": "Füllhorn",
+      "price": "5",
+      "type": [
+        "Treasure"
+      ]
+    },
+    {
+      "id": "3650582e-3a0d-4660-81af-b8c9e8492a24",
+      "en": "Hunting Party",
+      "de": "Jagdgesellschaft",
+      "price": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "8629b2df-80b2-4516-901c-e86b3f599401",
+      "en": "Jester",
+      "de": "Narr",
+      "price": "5",
+      "type": [
+        "Action",
+        "Attack"
+      ]
+    },
+    {
+      "id": "d25e7f5a-a731-47a2-a61c-61156abfcb7d",
+      "en": "Fairgrounds",
+      "de": "Jahrmarkt",
+      "price": "6",
+      "type": [
+        "Victory"
+      ]
+    },
+    {
+      "id": "745e5bd5-99a6-45a8-b9d3-55ce865f24f0",
+      "en": "Candlestick Maker",
+      "de": "Kerzenzieher",
+      "price": "2",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "9a3ec56b-ed5c-4782-9f5c-f818e1c325b9",
+      "en": "Stonemason",
+      "de": "Steinmetz",
+      "price": "2",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "3d931752-a691-47ca-be99-b2007f4f97af",
+      "en": "Doctor",
+      "de": "Doktor",
+      "price": "3*",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "a262bde6-c1e8-4f05-ba27-1b4a577905c7",
+      "en": "Masterpiece",
+      "de": "Meisterwerk",
+      "price": "3*",
+      "type": [
+        "Treasure"
+      ]
+    },
+    {
+      "id": "92be20e7-39b0-499a-aa0a-bb063ea87c3f",
+      "en": "Advisor",
+      "de": "Berater",
+      "price": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "56fc6bb8-b2aa-4db3-a855-3b8e14f2c463",
+      "en": "Herald",
+      "de": "Herold",
+      "price": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "22681d39-17f5-4507-942f-763d490ab07b",
+      "en": "Plaza",
+      "de": "Platz",
+      "price": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "db6a04bb-d04a-4adb-b594-d4812758171b",
+      "en": "Taxman",
+      "de": "Steuereintreiber",
+      "price": "4",
+      "type": [
+        "Action",
+        "Attack"
+      ]
+    },
+    {
+      "id": "fa5a3898-c519-4509-8f64-288a32c2e720",
+      "en": "Baker",
+      "de": "Bäckerin",
+      "price": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "70839457-96f3-40e8-be5e-aa4443c68ff8",
+      "en": "Butcher",
+      "de": "Metzger",
+      "price": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "076e8b69-e3f5-4ab1-ae64-c01d54fcb21c",
+      "en": "Journeyman",
+      "de": "Wanderer",
+      "price": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "2dfe1c6c-5b33-4e65-845b-7e6aa26aaa9f",
+      "en": "Merchant Guild",
+      "de": "Kaufmannsgilde",
+      "price": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "ff253638-cb1b-4d95-a568-2159727c337b",
+      "en": "Soothsayer",
+      "de": "Wahrsager",
+      "price": "5",
+      "type": [
+        "Action",
+        "Attack"
+      ]
+    },
+    {
+      "id": "5415af71-b8f9-4103-bd81-4ad223ebc92e",
+      "en": "Blockade",
+      "de": "Blockade",
+      "price": "4",
+      "type": [
+        "Action",
+        "Duration"
+      ]
+    },
+    {
+      "id": "200d021b-4328-4793-999d-831acc789539",
+      "en": "Monkey",
+      "de": "Affe",
+      "price": "3",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "4be3579d-111f-4f97-bee7-b8bbb6c02154",
+      "en": "Sea Witch",
+      "de": "Seehexe",
+      "price": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "36a10ba1-2fc7-40eb-acf4-310df154450d",
+      "en": "Tide Pools",
+      "de": "Gezeitenbecken",
+      "price": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "e3391a5a-f5a9-4b63-8c56-2e521e174451",
+      "en": "Corsair",
+      "de": "Korsar",
+      "price": "5",
+      "type": [
+        "Action",
+        "Attack"
+      ]
+    },
+    {
+      "id": "5e881383-2854-4a17-81bd-e32231d22b6b",
+      "en": "Jewelled Egg",
+      "de": "Geschmücktes Ei",
+      "price": "2",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "971e243d-85de-4284-a3da-b6d4f2640786",
+      "en": "Search",
+      "de": "Suche",
+      "price": "2",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "1cce6b24-ecbf-4fa6-a199-35a5a2df9079",
+      "en": "Shaman",
+      "de": "Schamane",
+      "price": "2",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "a84b8197-0e3c-4e3c-826c-0c1b7a24a779",
+      "en": "Secluded Shrine",
+      "de": "Abgeschiedenes Heiligtum",
+      "price": "3",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "b77ab8e4-8be6-4185-ada3-e645d751e717",
+      "en": "Siren",
+      "de": "Sirene",
+      "price": "3",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "1afb1654-d482-452e-b865-f53b5d4a222b",
+      "en": "Stowaway",
+      "de": "Blinder Passagier",
+      "price": "3",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "37983b06-68f2-46d1-8019-485ffd7a6346",
+      "en": "Cabin Boy",
+      "de": "Kajütenjunge",
+      "price": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "6bcdc3f3-6bef-43be-a324-8fb571d503cb",
+      "en": "Crucible",
+      "de": "Schmelztiegel",
+      "price": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "c0314633-51d9-452f-932f-a1afab01ee28",
+      "en": "Flagship",
+      "de": "Flaggschiff",
+      "price": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "c8987ddb-da76-42d2-8ccb-0e5bcfba770b",
+      "en": "Gondola",
+      "de": "Gondel",
+      "price": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "a43e9c55-0363-4d65-83d1-4a2c1483e17e",
+      "en": "Landing Party",
+      "de": "Landungstrupp",
+      "price": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "58871364-c69d-4a73-8c55-922150b68ceb",
+      "en": "Rope",
+      "de": "Seil",
+      "price": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "790d44cd-db87-4d62-8c5c-297440826fe8",
+      "en": "Buried Treasure",
+      "de": "Vergrabener Schatz",
+      "price": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "2cd392e8-1acd-4f55-8b99-4c0ffb0a5cb5",
+      "en": "Enlarge",
+      "de": "Vergrößern",
+      "price": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "375f7a51-55b1-40a1-9a9e-79df9cbbe098",
+      "en": "Figurine",
+      "de": "Figurine",
+      "price": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "bd3ef2a4-22b3-410d-b991-3ae74ba501be",
+      "en": "First Mate",
+      "de": "Erster Maat",
+      "price": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "2c8643b5-7ecd-459e-87ec-65ed3ccef950",
+      "en": "Mining Road",
+      "de": "Bergbaustraße",
+      "price": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "9df8bfb6-b8a8-4c8f-a792-30ad403f4278",
+      "en": "Pendant",
+      "de": "Anhänger",
+      "price": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "3a350311-844e-4e2c-856f-f9b6a49379be",
+      "en": "Pickaxe",
+      "de": "Spitzhacke",
+      "price": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "be9a43a7-1a83-417d-8471-3a751eca0159",
+      "en": "Pilgrim",
+      "de": "Pilger",
+      "price": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "fd08a9a6-6924-42cd-a20e-cc5b20438c54",
+      "en": "Silver Mine",
+      "de": "Silbermine",
+      "price": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "be0f4f07-78cc-4e0a-a156-5ddebcdd6b50",
+      "en": "Trickster",
+      "de": "Trickster",
+      "price": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "24788c1b-8973-4f29-b22c-30de7b701d98",
+      "en": "Wealthy Village",
+      "de": "Reiches Dorf",
+      "price": "5",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": "1e15a240-a82f-4a7a-9a15-42d79395d4a3",
+      "en": "Sack of Loot",
+      "de": "Beutelsack",
+      "price": "6",
+      "type": [
+        "Action"
+      ]
+    }
+  ],
+  "editions": [
+    {
+      "id": "e39e3c3f-f77f-448e-b105-38eca4ab132f",
+      "edition_en": "Base (1st Edition)",
+      "edition_de": "Basisspiel (1. Auflage)",
+      "release_date": "2008-10",
+      "card_ids": [
+        "d07e4264-98c8-4677-9492-b743f814eff9",
+        "ff8e3cec-8ef4-4fa2-90b6-5cd2eee0e7fe",
+        "0579e10d-15c9-403e-9feb-ac55e0274409",
+        "b09e4b02-e477-4d07-ab84-13fa99388b41",
+        "10c23a1b-8360-4337-823b-d732e7bc601f",
+        "a1b2c3d4-e5f6-4789-a012-3456789abcde",
+        "b2c3d4e5-f6a7-4890-b123-456789abcdef",
+        "4c0a294b-95c6-4ea7-ace1-a019311a337a",
+        "7b7f6f1b-5388-4fd5-bc84-c70f9183fe0b",
+        "8a4e0627-d4d6-4d47-9de6-5f2b534fbea7",
+        "4c9f516e-b8b2-4ab6-a03d-fb49b3e3dc0d",
+        "a705018e-626e-4fc1-abec-b1ffb945d013",
+        "06651d9e-6a1b-4d4d-a8cc-7493e7b223d0",
+        "c3d4e5f6-a7b8-4901-c234-56789abcdef0",
+        "d4e5f6a7-b8c9-4012-d345-6789abcdef01",
+        "e5f6a7b8-c9d0-4123-e456-789abcdef012",
+        "f6a7b8c9-d0e1-4234-f567-89abcdef0123",
+        "07b72f9f-f03e-48ff-b8d9-7f4fdcb666d8",
+        "ea8de041-64dd-45fe-b67e-eb2dc41be799",
+        "25010483-67e0-429b-82ea-6c2097c37072",
+        "4030d078-e60f-4398-8a82-59c0d3d260d1",
+        "90ed7534-bf17-4ac3-9220-2d959dad5ab6",
+        "138b7234-069a-480d-b057-614daa630adb",
+        "2fa6c32b-e513-42ce-a420-9a3899a8b7e7",
+        "a7b8c9d0-e1f2-4345-a678-9abcdef01234"
+      ]
+    },
+    {
+      "id": "f7543694-0261-4e2b-aefa-38e7f872510e",
+      "edition_en": "Base (2nd Edition)",
+      "edition_de": "Basisspiel (2. Auflage)",
+      "release_date": "2016-10",
+      "card_ids": [
+        "d07e4264-98c8-4677-9492-b743f814eff9",
+        "ff8e3cec-8ef4-4fa2-90b6-5cd2eee0e7fe",
+        "0579e10d-15c9-403e-9feb-ac55e0274409",
+        "10a49a27-4b86-4aa7-a188-04da9deaf910",
+        "b013df0a-6781-4f5c-9d1c-8da219a08b8d",
+        "c993def0-8557-461f-893e-0ae8cf758279",
+        "b09e4b02-e477-4d07-ab84-13fa99388b41",
+        "10c23a1b-8360-4337-823b-d732e7bc601f",
+        "4c0a294b-95c6-4ea7-ace1-a019311a337a",
+        "7b7f6f1b-5388-4fd5-bc84-c70f9183fe0b",
+        "8a4e0627-d4d6-4d47-9de6-5f2b534fbea7",
+        "4c9f516e-b8b2-4ab6-a03d-fb49b3e3dc0d",
+        "6f90764a-c90b-4e79-a185-3f089d1d2342",
+        "a705018e-626e-4fc1-abec-b1ffb945d013",
+        "06651d9e-6a1b-4d4d-a8cc-7493e7b223d0",
+        "f6a7b8c9-d0e1-4234-f567-89abcdef0123",
+        "824b11da-74ac-4a30-bbb7-a0c9c90fb2bd",
+        "07b72f9f-f03e-48ff-b8d9-7f4fdcb666d8",
+        "ea8de041-64dd-45fe-b67e-eb2dc41be799",
+        "25010483-67e0-429b-82ea-6c2097c37072",
+        "4030d078-e60f-4398-8a82-59c0d3d260d1",
+        "90ed7534-bf17-4ac3-9220-2d959dad5ab6",
+        "138b7234-069a-480d-b057-614daa630adb",
+        "8eb243c8-60fc-45ec-9bd2-b52dfe4e943b",
+        "2fa6c32b-e513-42ce-a420-9a3899a8b7e7",
+        "8eb59c39-4633-46c0-ba9d-5c42dcb0c260"
+      ]
+    },
+    {
+      "id": "8bcf7431-170e-4c39-ad22-ecb71c3c036d",
+      "edition_en": "Intrigue (1st Edition)",
+      "edition_de": "Intrige (1. Auflage)",
+      "release_date": "2009-07",
+      "card_ids": [
+        "aeb7df5a-258f-4dd1-a2b5-1dace21ca0c3",
+        "55771465-4cbf-4b98-a286-65406406c816",
+        "cec16d08-44fc-4152-bcbb-0c4d30568e16",
+        "3973fa7a-5cd7-46e1-a38e-08d7903f522b",
+        "9d4caa74-6574-4561-8083-a741eb84f7ab",
+        "faf28dd2-2a7d-4d93-89b8-4a9e0baba973",
+        "e279eff6-5b01-4b17-92e3-8173a7e5dd2b",
+        "5cf72ab4-e99d-44f5-871b-f0853508a671",
+        "45cc0e46-160f-49eb-9ea3-db75ffc6893b",
+        "89a44393-2e1c-462c-9426-cd33baa066e4",
+        "d4d2b78a-7747-4a88-b211-e63d8243debe",
+        "6d924ca0-8e77-4c65-b56a-a46717f1ce90",
+        "30d5e572-e58a-4e9c-860a-48c02b476e06",
+        "9fb99bd8-11e3-4a41-bda7-17e6b18578cc",
+        "b596f937-6ef7-452e-a202-e50a9d7df49d",
+        "bfd56251-5e16-4e4e-b1d2-461dbdf5148e",
+        "95c66779-856f-4a90-8cbd-f549a9474c89",
+        "8471b713-f30b-490e-9d9d-6ed086c6a884",
+        "4d41c1ed-a5a6-46df-9844-85b9af969146",
+        "d5e81b38-ca13-45fe-9dbb-895ced4b13e2",
+        "f87ac860-19cb-450f-bb88-5f1a75e928ce",
+        "f2df22b4-c938-4e90-97ae-7db7e9a22138",
+        "7c09f203-cb77-4074-9c13-8ce2c852c0d6",
+        "10bea930-9547-4a44-a926-8d1574a2e044",
+        "8a08ac59-ffd7-4b79-9f98-305c5bbe83d3"
+      ]
+    },
+    {
+      "id": "26b8dbdc-6394-4000-ad0c-4f64f94511b3",
+      "edition_en": "Intrigue (2nd Edition)",
+      "edition_de": "Intrige (2. Auflage)",
+      "release_date": "2016-10",
+      "card_ids": [
+        "aeb7df5a-258f-4dd1-a2b5-1dace21ca0c3",
+        "cc75a06d-3726-448d-bfab-6b0557a2ab4e",
+        "55771465-4cbf-4b98-a286-65406406c816",
+        "9d4caa74-6574-4561-8083-a741eb84f7ab",
+        "faf28dd2-2a7d-4d93-89b8-4a9e0baba973",
+        "e279eff6-5b01-4b17-92e3-8173a7e5dd2b",
+        "5cf72ab4-e99d-44f5-871b-f0853508a671",
+        "45cc0e46-160f-49eb-9ea3-db75ffc6893b",
+        "89a44393-2e1c-462c-9426-cd33baa066e4",
+        "d4d2b78a-7747-4a88-b211-e63d8243debe",
+        "6d924ca0-8e77-4c65-b56a-a46717f1ce90",
+        "c1b6c7a9-2739-405d-982e-d223438978ec",
+        "30d5e572-e58a-4e9c-860a-48c02b476e06",
+        "98c0cb1f-9140-4556-9ed1-0f5319d90f07",
+        "bfd56251-5e16-4e4e-b1d2-461dbdf5148e",
+        "b4513a57-cd7c-4026-93a1-ff9f0108dcc9",
+        "4cb577fb-fc02-46f1-abb3-a058e41aedb5",
+        "95c66779-856f-4a90-8cbd-f549a9474c89",
+        "8471b713-f30b-490e-9d9d-6ed086c6a884",
+        "73a8160c-61e2-430b-8210-a23198f4c2dd",
+        "c60a6511-8f20-42f3-8fb9-25160eb082c0",
+        "4d41c1ed-a5a6-46df-9844-85b9af969146",
+        "d5e81b38-ca13-45fe-9dbb-895ced4b13e2",
+        "f87ac860-19cb-450f-bb88-5f1a75e928ce",
+        "559a5406-6ef5-417e-87a6-b7ca0756f5de",
+        "8a08ac59-ffd7-4b79-9f98-305c5bbe83d3"
+      ]
+    },
+    {
+      "id": "e0af5284-0870-45fd-8a30-c2977f9bebec",
+      "edition_en": "Seaside (1st Edition)",
+      "edition_de": "Seaside (1. Auflage)",
+      "release_date": "2009-10",
+      "card_ids": [
+        "9d17cbde-2969-4cdd-84bc-51abe90e9671",
+        "63a7f198-d597-4f42-ae9d-4eb678a8d298",
+        "d2f9cbe4-e760-4c92-a3b0-fdb0e07eb09d",
+        "6ff68024-1758-48a1-8611-b09f856de789",
+        "f96e69fa-4ff6-4b1e-b524-0b3c4f9150e3",
+        "27fc6c0b-6a0c-4bdd-9991-19127801b133",
+        "6c2ee8ab-7f69-47fe-a298-70175a578911",
+        "a6e505b1-9060-41ba-a156-ef9a0a3e46bd",
+        "08f44a8d-c38a-4e77-8b03-af69e5a9a29d",
+        "22f750b8-c62c-406d-907a-1663d8836365",
+        "d1c872d2-7ebc-4e3d-ae48-93682c2b247e",
+        "a88e5412-28be-496b-8f01-50caefc245bf",
+        "f9733b67-2cb9-49b7-8532-94203be98ebf",
+        "2d269b44-9b5a-4ee3-9bc7-d9f741dfcfac",
+        "28ae518c-de23-49da-9e63-d35e0460fefe",
+        "6065017f-5bb3-4849-8d90-21fb8ebf43e4",
+        "8baa11dd-5c99-414e-a4cb-9b6a6fc44821",
+        "84fe8952-5ea0-4cfc-81d4-da82e8332c01",
+        "1e6b64d1-9e7b-4ec8-bc66-01bc971f43fc",
+        "4ac77fc5-3bcb-4cb0-82e5-81f580954116",
+        "7da9828b-e28c-4ace-86e4-49952d0a4d8c",
+        "18c2eb23-92dd-4475-a98b-020db4b2ce20",
+        "bcec59ff-e7b7-4d88-b448-9540cfb58377",
+        "8e6586f4-f678-4fc5-aaed-6452ab4b0724",
+        "9264de3f-c20c-449e-8b42-8adf78aad144",
+        "e110720a-a360-461a-b771-3199944b5133"
+      ]
+    },
+    {
+      "id": "cedbcb53-faa5-4fb4-b2ed-ca2a7f1e1b49",
+      "edition_en": "Seaside (2nd Edition)",
+      "edition_de": "Seaside (2. Auflage)",
+      "release_date": "2022-10",
+      "card_ids": [
+        "9d17cbde-2969-4cdd-84bc-51abe90e9671",
+        "63a7f198-d597-4f42-ae9d-4eb678a8d298",
+        "d2f9cbe4-e760-4c92-a3b0-fdb0e07eb09d",
+        "154378e8-f25e-4e62-a10c-bc5836cbc7ec",
+        "27fc6c0b-6a0c-4bdd-9991-19127801b133",
+        "6c2ee8ab-7f69-47fe-a298-70175a578911",
+        "200d021b-4328-4793-999d-831acc789539",
+        "9ca3beb0-fc79-4900-b174-4d73a8a57457",
+        "a6e505b1-9060-41ba-a156-ef9a0a3e46bd",
+        "9264de3f-c20c-449e-8b42-8adf78aad144",
+        "5415af71-b8f9-4103-bd81-4ad223ebc92e",
+        "22f750b8-c62c-406d-907a-1663d8836365",
+        "e110720a-a360-461a-b771-3199944b5133",
+        "d1c872d2-7ebc-4e3d-ae48-93682c2b247e",
+        "a27165b4-2b40-4f66-b8b2-b94ae29c2579",
+        "a88e5412-28be-496b-8f01-50caefc245bf",
+        "36a10ba1-2fc7-40eb-acf4-310df154450d",
+        "f9733b67-2cb9-49b7-8532-94203be98ebf",
+        "8baa11dd-5c99-414e-a4cb-9b6a6fc44821",
+        "e3391a5a-f5a9-4b63-8c56-2e521e174451",
+        "84fe8952-5ea0-4cfc-81d4-da82e8332c01",
+        "1e6b64d1-9e7b-4ec8-bc66-01bc971f43fc",
+        "04167b05-904c-47cb-9303-31fe29cc70bd",
+        "4be3579d-111f-4f97-bee7-b8bbb6c02154",
+        "4ac77fc5-3bcb-4cb0-82e5-81f580954116",
+        "7da9828b-e28c-4ace-86e4-49952d0a4d8c",
+        "18c2eb23-92dd-4475-a98b-020db4b2ce20"
+      ]
+    },
+    {
+      "id": "5b7a6d22-44a2-46bc-bc29-e98a519a147b",
+      "edition_en": "Alchemy",
+      "edition_de": "Die Alchemisten",
+      "release_date": "2010-05",
+      "card_ids": [
+        "6a108754-3882-4e87-971d-cd27e3f105ff",
+        "dcfc6f2c-3476-4413-95af-9c9fa34d4a56",
+        "17be3bed-7b99-4e8b-a416-a80489243e56",
+        "ac037328-8dc3-4ca7-b741-82c1bfbc7c15",
+        "1c995007-ccbf-45d0-aff7-2f4994f697e6",
+        "29f4903a-fb02-4186-a6c5-0c86e2381e5d",
+        "a31155f7-2277-457d-852e-51dc19f3830f",
+        "3222d6d8-901a-4815-8715-923ca9be09e9",
+        "2fc599fc-1c13-4a7d-bd4d-cf6a896f3d1a",
+        "0a4994b2-d13b-4ad4-9cf4-5227c2a2c088",
+        "189b3b8c-1dad-4008-b56a-4ad93427add1",
+        "df6e993b-aab9-4642-afcd-2f7705b930f3"
+      ]
+    },
+    {
+      "id": "898213af-bd4e-4442-8fc1-b5a4925a2f50",
+      "edition_en": "Prosperity (1st Edition)",
+      "edition_de": "Blütezeit (1. Auflage)",
+      "release_date": "2010-09",
+      "card_ids": [
+        "6209ed47-55d2-4a22-bb84-51e123e96ff1",
+        "0ea775af-acbb-4f07-8c03-fc4fbfa486b2",
+        "ebafddd1-0635-47a1-ba31-35f61c7b41b9",
+        "ff2f97ab-30f8-4627-8a06-a9fac4b0c623",
+        "c76ac835-0f15-47bc-b050-2f7ab6c85440",
+        "8211709d-9564-4bbe-8a07-8d1b610c6bbf",
+        "1ddec8b6-4e9e-4f17-bd4e-5193d59abc39",
+        "5eb74fbd-8edc-44e0-9acf-64338b7c1127",
+        "021e4cc2-5a89-451e-8325-41e6dc9d0098",
+        "ef0a0f15-c19a-4cf9-9bef-b105f5f2314a",
+        "ad4ebcfa-dcdc-4907-9068-68237b0e4454",
+        "9b6408c1-f45b-4f29-b724-d5acd8ff9f19",
+        "9be522ae-ad1c-4280-901a-a6a8f42a2d7b",
+        "a1d1d2ff-2915-435a-8a56-fda1224ab89a",
+        "76ec5d6a-2839-4e3e-bc5c-5d2f32fbbfc4",
+        "b65a422b-efce-48d4-8861-19904d31b76d",
+        "397eba16-8bae-4c0b-9d7b-585928c1fed6",
+        "334dd843-b302-4e95-8868-0f927eadb12f",
+        "238b36c9-0e17-4a93-bfe1-e3ee32082f4c",
+        "2b135a18-f2dd-4d03-b508-25d4258b29ff",
+        "01bab2eb-2f55-49f7-8bf0-f9a46fa791f9",
+        "cf947f7f-54a7-4832-a088-57ed2c036e87",
+        "1c54e31a-fc00-4406-9835-0945d36e0d87",
+        "d2e00e92-5b8c-414b-ab0f-c459835cf830",
+        "cd5dff98-e2c9-4e32-af16-903fe7c2c706"
+      ]
+    },
+    {
+      "id": "553efa2b-e3ee-478b-a214-4d2d2d23de55",
+      "edition_en": "Prosperity (2nd Edition)",
+      "edition_de": "Blütezeit (2. Auflage)",
+      "release_date": "2022-10",
+      "card_ids": [
+        "f6d8ba8c-3faf-4934-8f85-bc97a0a998be",
+        "ebafddd1-0635-47a1-ba31-35f61c7b41b9",
+        "ff2f97ab-30f8-4627-8a06-a9fac4b0c623",
+        "8d9c53c5-8724-4a87-b88c-adfec9caf636",
+        "1f37de01-cd4e-4aca-93b2-3f62445ff914",
+        "c76ac835-0f15-47bc-b050-2f7ab6c85440",
+        "8211709d-9564-4bbe-8a07-8d1b610c6bbf",
+        "f74b7be1-ce31-4b45-8289-7fcfa5432f5d",
+        "5eb74fbd-8edc-44e0-9acf-64338b7c1127",
+        "178abf5c-b15a-4877-a13e-fc995438d4d2",
+        "021e4cc2-5a89-451e-8325-41e6dc9d0098",
+        "b4f05b08-fd83-45a4-9234-945b1c7f6ac2",
+        "0d83fbbc-44db-4ffa-8d58-7d2c1f70d442",
+        "3ce6a24e-0488-4a6c-99bc-a88cf80fe9ed",
+        "9b6408c1-f45b-4f29-b724-d5acd8ff9f19",
+        "a1d1d2ff-2915-435a-8a56-fda1224ab89a",
+        "b65a422b-efce-48d4-8861-19904d31b76d",
+        "c608a2f2-e29a-4ee3-9794-a09dac10e3c1",
+        "2b135a18-f2dd-4d03-b508-25d4258b29ff",
+        "238b36c9-0e17-4a93-bfe1-e3ee32082f4c",
+        "01bab2eb-2f55-49f7-8bf0-f9a46fa791f9",
+        "cf947f7f-54a7-4832-a088-57ed2c036e87",
+        "1c54e31a-fc00-4406-9835-0945d36e0d87",
+        "d2e00e92-5b8c-414b-ab0f-c459835cf830",
+        "cd5dff98-e2c9-4e32-af16-903fe7c2c706"
+      ]
+    },
+    {
+      "id": "04f57f3b-fca4-4155-b194-0855246266ab",
+      "edition_en": "Hinterlands (1st Edition)",
+      "edition_de": "Hinterland (1. Auflage)",
+      "release_date": "2011-11",
+      "card_ids": [
+        "ee30ac18-be13-4c14-a106-8e4bdf2a26dd",
+        "5f357df6-f48d-456f-be10-91d16ae19ce5",
+        "fa7bee48-5403-42e0-ab40-2a0df0424437",
+        "d103e5d3-b0b5-4bf3-9f81-c34385c2956e",
+        "da523b31-5550-460e-881b-f55da16e324b",
+        "39368c9f-5dc4-45d3-98cc-a891ed257a6f",
+        "492be2a4-2015-43db-820e-e43b6a3f49c7",
+        "044159d1-c3f7-4330-967b-688cfa83333b",
+        "f6e2c778-69b1-4c64-800d-2612f5eeba83",
+        "b1034b1e-a5b5-42d6-991b-1b3954ef2bfb",
+        "ffa712d4-228a-4c24-84ae-1aa21ce35cab",
+        "b5cf1504-5ec0-4713-89b6-43939451fb97",
+        "b8ed9a16-94a4-4f51-87a4-f702576ffd18",
+        "3a7f2038-18c8-4fbb-a491-44d917121c52",
+        "9b5f65c9-ab23-4526-b6e3-3ef7855ad670",
+        "7fe45964-b022-47c9-952c-8e97e508402d",
+        "7d9abf0f-283c-4f3e-ac44-5acb19568f8d",
+        "603c0d38-aca2-4c31-9903-2777c5461a9e",
+        "3fe0a292-11cd-4578-8694-fd17cb33a876",
+        "1943b92c-059c-4a08-98e7-8c59ef500c4f",
+        "cdbe41d5-4a7e-48d4-8a02-9abfc242260b",
+        "635919d7-b47d-4bc9-9954-5e0668ce80d7",
+        "abe6f714-570a-4ca9-a4b5-5d3a64fa5c9b",
+        "5c1f07be-0c5d-406a-a2e2-5c36159d3e91",
+        "2746f5d4-8375-4317-814c-8047f640029e",
+        "169fe4f6-faa4-4a90-949e-e99e4ea572c6"
+      ]
+    },
+    {
+      "id": "8ca66045-86c2-4dd1-b0cc-ce3a7957a175",
+      "edition_en": "Hinterlands (2nd Edition)",
+      "edition_de": "Hinterland (2. Auflage)",
+      "release_date": "2022-10",
+      "card_ids": [
+        "ee30ac18-be13-4c14-a106-8e4bdf2a26dd",
+        "fa7bee48-5403-42e0-ab40-2a0df0424437",
+        "d103e5d3-b0b5-4bf3-9f81-c34385c2956e",
+        "e0af98ab-fe3a-41e5-9d57-be4ef34e6a07",
+        "da523b31-5550-460e-881b-f55da16e324b",
+        "492be2a4-2015-43db-820e-e43b6a3f49c7",
+        "044159d1-c3f7-4330-967b-688cfa83333b",
+        "f6e2c778-69b1-4c64-800d-2612f5eeba83",
+        "19266119-d21d-49b7-a626-0e2e0e81412c",
+        "b8ed9a16-94a4-4f51-87a4-f702576ffd18",
+        "3a7f2038-18c8-4fbb-a491-44d917121c52",
+        "05644033-bf2c-4a46-9010-b8f7f3e2855f",
+        "8a4aefd5-42e6-463c-9241-60c856a12aea",
+        "04b4d462-bda1-4f13-83e2-0d6ac684d0c0",
+        "7fe45964-b022-47c9-952c-8e97e508402d",
+        "9bb5d604-41fd-4e13-ad01-d2c8e9f104f8",
+        "603c0d38-aca2-4c31-9903-2777c5461a9e",
+        "3fe0a292-11cd-4578-8694-fd17cb33a876",
+        "cdbe41d5-4a7e-48d4-8a02-9abfc242260b",
+        "abe6f714-570a-4ca9-a4b5-5d3a64fa5c9b",
+        "1c8aa34a-e403-40f3-ad92-2f7df5d96fa1",
+        "5c1f07be-0c5d-406a-a2e2-5c36159d3e91",
+        "8d4fe956-d1a3-4270-b9b0-448261da5138",
+        "4798f648-9ef9-421d-8091-759b6f076db3",
+        "2746f5d4-8375-4317-814c-8047f640029e",
+        "169fe4f6-faa4-4a90-949e-e99e4ea572c6"
+      ]
+    },
+    {
+      "id": "1f0b6107-bcf6-414f-9e84-b6fd2ef12246",
+      "edition_en": "Dark Ages",
+      "edition_de": "Dunkle Zeiten",
+      "release_date": "2012-08",
+      "card_ids": [
+        "42995efd-81c8-420a-b1f0-581284124b1c",
+        "77b5e8d5-30d7-4102-b94f-3e3961acd8a2",
+        "aeb5ebd4-a4d5-4927-beb3-60d62392614d",
+        "f3992d5a-b505-44d6-ab36-01122e200fea",
+        "38bcc9d8-ec12-4ca1-bf57-0704e68ca140",
+        "ad027c46-9588-4157-861f-3fbb7a83bd9b",
+        "924270b5-43c4-4a78-9a22-62d5cc1982ac",
+        "68038c19-7a7d-475d-9700-3561a0da18cb",
+        "0a798c2f-f8d8-462a-8668-39618dda5a7f",
+        "b918b2cb-bd7f-4b1e-bab3-b826bc565c27",
+        "c3a52361-f0a1-403e-827d-ee8fd0c45394",
+        "5ed252e3-67f1-4888-afeb-b40436765143",
+        "9e0cf518-3d11-48a2-bc7a-0dd738b18ff2",
+        "43291d5e-1136-468a-9a9c-0982345eaeea",
+        "857260d8-5519-4b48-8abf-dd6786fc9f06",
+        "1216e748-7007-4f8f-9a67-947200e3f815",
+        "97a2d5bd-d4d2-458a-a241-a925da0f1bc5",
+        "a2563d60-faee-4006-99c8-a93914d00215",
+        "8c2753ce-e18a-468a-aa92-3aab59fba6c5",
+        "0d76a02d-802b-4ec0-972d-2e46e1a345fc",
+        "754fdfdd-f59b-494d-96aa-3502479af7a5",
+        "81500814-b161-4d84-b819-c3d8eda4be48",
+        "c1725514-375c-4132-8801-0951cb052455",
+        "b14053a5-91de-4d28-81e4-d2d7553f41d1",
+        "d3295383-5749-4426-acb7-b01d1426da44",
+        "4fa3b8f6-1967-4fdd-b04f-535fe3d856c7",
+        "587ee392-5408-4251-85c2-2d38ea143fec",
+        "87a3cfc0-8a90-4446-b9c0-40ea4d4721e4",
+        "e8b1a094-1d7f-4fa8-825c-46dbf954268a",
+        "a67b22c5-41ca-4090-ba4e-486be27b4740",
+        "67e8b0de-43b3-4ac2-a9da-b3e8df6b703a",
+        "1189683d-20d3-43b0-a14d-54369ec2b757",
+        "a513fd03-5da0-4920-a388-848e7999dc62",
+        "e9cfe5e2-997c-49a7-922a-d6881befe8b1"
+      ]
+    },
+    {
+      "id": "d2d5fbde-6f1c-45a8-b26d-afdffc481c16",
+      "edition_en": "Adventures",
+      "edition_de": "Abenteuer",
+      "release_date": "2015-04",
+      "card_ids": [
+        "30bec60f-bd6b-48b6-9b5c-723c43e287fa",
+        "7ed63277-fef2-4879-ba29-a1d4172d43ef",
+        "853a4be8-6965-4e1a-8f02-d84620a7b6f0",
+        "1296e420-ae0e-4f11-a9cf-0f634ee3556a",
+        "4d42f85f-83b0-4ce2-8f2f-39d2cf65d2d1",
+        "f9a9c1d7-b12d-4930-8cec-8695de14896f",
+        "280bfc7f-1be0-4577-8488-8f96972086b1",
+        "68797d39-aa3a-4c80-95a2-f46bea1f74ed",
+        "9150ee06-1122-4f51-9a39-7ec78e58dfc1",
+        "cfceb1b2-0b0a-471f-bd2b-b54971c35bbf",
+        "2097c3a0-cfcf-42e9-abf8-ad1e11158c0b",
+        "e1a4b4da-95b8-4385-932b-84cc72cc28f5",
+        "72bb63e4-1813-486d-baf1-314e0ae6f748",
+        "1c180370-c801-4cb1-bc63-e5401903c618",
+        "317e2880-92ee-4b05-88e8-9b82c2e52e67",
+        "5737be80-fda3-4c2f-bbb1-9d92d1fdb0ff",
+        "08c27f5b-d430-4a31-b39b-314c080cf110",
+        "7eb26c75-7b90-46d6-9f62-bcf607ed1c3f",
+        "4922ef88-5e90-41b5-be93-41f7457677b6",
+        "4fa27ebc-d1d6-439a-8ed0-8d3e9b36fa3d",
+        "1acd4059-5813-4004-913a-d4b712109998",
+        "92ecc544-e362-435a-85d6-a59f273f591c",
+        "00a8e314-fe84-426b-9c35-5aee9babe54c",
+        "2f56a1f8-a974-48a7-be86-268b2f8312a0",
+        "75219d5d-062b-4f4f-b741-f2792a0a69b1",
+        "afc879e4-d1fa-4496-bdbe-6d581640a4ae",
+        "48a64a5a-d2b4-411a-9222-3a06c21ed4db",
+        "ec3080cc-2b57-4f2d-b353-3ae7270bee64",
+        "0c7491e0-4bec-4ecc-9a02-273d7c1768f8",
+        "faa39ef8-15bf-4674-9d23-018fb2728d42"
+      ]
+    },
+    {
+      "id": "ce64c480-bcdb-4215-990a-cff3c99010b3",
+      "edition_en": "Empires",
+      "edition_de": "Empires",
+      "release_date": "2016-06",
+      "card_ids": [
+        "93d9732e-f57b-4fdc-bac1-874ca713bce1",
+        "a00517b8-ae63-4969-9236-37a497413857",
+        "30dffe71-51c6-4ded-af41-8f72dfb7e64c",
+        "9ded5548-2c33-469c-a81b-2a6346f02632",
+        "5ee1e1c8-c5d7-42bd-ab68-86f77f051899",
+        "47e82f2f-99f6-46d0-843b-cbbd12b68946",
+        "4559fa1f-d3a7-4999-b983-6792a603fa59",
+        "7d91dbd4-7410-4cc0-8c82-c3b669c929c4",
+        "66f354f4-744e-42f8-a9b8-d2ee57111e0f",
+        "328642cc-43d8-4a01-8c83-e74c428df84f",
+        "58e80bf3-48fb-44f7-988e-5d5f18da79bf",
+        "e110ee1b-6251-4f4d-8e51-31338fbcfade",
+        "d1f9f506-08f5-4c2d-9b6a-69e2c260f414",
+        "fe42989e-a19f-4e3a-98e5-07706c74b62a",
+        "fb944760-1887-43aa-bf40-64f3bee9530e",
+        "980ffd76-a360-4990-8dd4-d8c34e0233ae",
+        "f9cac423-635a-406e-81c7-0cd23cbbcff7",
+        "4bc4ac14-1003-4946-90fd-6c39d2b3642f",
+        "84902582-6991-4991-ab40-da6d047cd84b",
+        "ecf8d227-f418-4b28-89b7-481965721eb1",
+        "32f524a3-181e-4a8f-9729-9aa405073a28",
+        "3f78d3a8-bf27-4d2e-b51a-0a325e5fd2a0"
+      ]
+    },
+    {
+      "id": "6dc178f6-0f5d-493a-a7a2-9331cfe355df",
+      "edition_en": "Nocturne",
+      "edition_de": "Nocturne",
+      "release_date": "2017-11",
+      "card_ids": [
+        "d0c50112-9156-47b6-b756-909126db6071",
+        "ccadbe71-9f94-43e1-9da4-6793f367f2ef",
+        "556f55c1-9772-4c62-96bc-124cdcbbdc41",
+        "e7aca40e-6037-4529-b66b-40a4fa01dae2",
+        "77ee5ae6-2111-4f58-9776-1ef14bae7874",
+        "3ec74f5b-d0c1-4431-a984-a8c43948e595",
+        "e702e36d-a4c6-4155-b073-8c697e928184",
+        "8b26b6bf-6d28-46bd-a1aa-7ae19743e228",
+        "7d4abec8-bcd9-4606-8940-403378597a08",
+        "c61e0c1d-5290-4b92-b317-d4351c9cad68",
+        "f1c19cf8-0c3f-4376-8410-ba4aa759033b",
+        "90cf7822-1bc6-4104-aa12-612484c778a4",
+        "b0d996fc-6b5a-47bb-895c-1e992b283eae",
+        "db885796-70e8-40e1-a75d-770af1037afb",
+        "9647c997-cdeb-4388-a9dc-162c05549a89",
+        "94785332-e840-4eb4-a6eb-083a1aca4926",
+        "9d8b726d-c3b9-4430-9236-1ce386d7d101",
+        "b9e8713f-6763-40ca-87a9-c5bd369ccbe1",
+        "b26ab094-6d56-477d-b2c8-8d92b32a6aa0",
+        "39677120-6955-4ace-aa87-9a3384ffe218",
+        "e69094ba-b53d-4930-a057-029ae96e7422",
+        "4c8b7076-eab1-47a2-998d-f6454d35836f",
+        "92c48018-a21b-4a88-b04d-d018665b8b9f",
+        "febce553-485c-4aea-aeee-22044cd1aad5",
+        "efe3c410-f345-439d-83a6-7fd3e7b8bd46",
+        "d531681c-aef7-4758-b90d-b0b2585279df",
+        "0ab95743-fe5f-4753-94c8-606b3c92a104",
+        "8fc01fe5-e9a6-4f0e-9c1f-ff68480afe7d",
+        "ea5c2ef8-c3ae-4f49-b5f6-b845adb34507",
+        "13b065d0-b570-42e7-a279-4c9bf24ae4ee",
+        "d5c3ad53-e8e3-4069-b978-af9bbd07dded"
+      ]
+    },
+    {
+      "id": "612084ee-26f6-4a08-a7a4-d8ec9b94413a",
+      "edition_en": "Renaissance",
+      "edition_de": "Renaissance",
+      "release_date": "2018-11",
+      "card_ids": [
+        "a524719f-fb1c-479c-bb3f-287dd9b9d1f8",
+        "aecbd7ab-03b0-45c6-8644-6112bd7d9a13",
+        "b2d13945-8d3c-423f-9567-839271cb6c11",
+        "f74018e6-6e5b-4bfe-8d05-d4fd3416aee6",
+        "b2995a0c-58af-4588-bc90-90f3c3d51600",
+        "d2e0328b-cea4-4758-baad-32177dd817fc",
+        "2b5fe12f-b434-47fd-bbe5-8f16b9a8a02c",
+        "57f48e91-7593-408b-a22d-96069b33cf3f",
+        "9408dc9e-f1c1-467c-9387-fc4685b1551e",
+        "d868ff2a-86da-4c27-9034-5ea59a664ae8",
+        "67b6101f-39ff-42a2-ae88-5c02ed2eb34a",
+        "5aae0787-e144-4496-86bb-83f529cd8b21",
+        "f6afbff9-9eb8-4d23-8a93-3c752af30d6f",
+        "f548060a-d67c-4e37-aa24-7734449c4473",
+        "85082ee3-9b07-45cf-8f87-516fd5ac80a4",
+        "ab9434ef-6a55-4244-8b77-cae96f248546",
+        "539ef1a1-fdf5-4682-90d7-266662292167",
+        "66e1d9ae-9b60-4b4a-9ea0-5339b59ab175",
+        "acbef055-e29b-4e9b-a02e-5a8fab5a6a5e",
+        "4274abd1-740f-459d-a717-b646157a521b",
+        "dd077478-c7d1-47e4-9459-cb10ef362846",
+        "9bf6560c-aaea-4e39-96d5-469e43f32c24",
+        "306b25f2-50cf-46cf-913e-1d4e93b6399a",
+        "16f6f830-ab5e-48e3-a54b-d375fd080113"
+      ]
+    },
+    {
+      "id": "822947f7-814b-46c7-8f15-5d156483f6b1",
+      "edition_en": "Menagerie",
+      "edition_de": "Menagerie",
+      "release_date": "2020-03",
+      "card_ids": [
+        "5ad0ed0d-19cd-4796-ad4c-2246f32e906b",
+        "68e8fd70-cc01-45dc-9b3a-f08923c2ea07",
+        "3f671fd8-0235-47cf-9870-b49091c88db9",
+        "c1a2a0e9-104c-4e72-85d1-c479ae56a286",
+        "2376dbdb-5a27-4f9a-8959-f72a83a1e57b",
+        "7809c597-ce11-4cb7-a780-548be3b11b24",
+        "06528829-486e-4320-b744-8048a55555fd",
+        "b58225ba-e96d-437f-b50c-a713d4ef3fdb",
+        "026a6ada-9672-447a-b923-f2323658b42b",
+        "233ceeae-f4a7-4104-8f88-93f67c42c5d1",
+        "0976679b-c832-4e46-99b7-407250603d93",
+        "000b453e-3883-4dae-aa4b-22a8e2d61e20",
+        "aed9a49f-566e-4d1b-a9dd-317444a7d400",
+        "41d46850-acfe-43e3-b2e4-d31fccbc8bf6",
+        "a4bdf505-9704-4de8-bf84-865ff6f1a360",
+        "c8e17848-c659-477a-9340-fef991332f97",
+        "b727fd5e-b0a0-4729-9cff-0d6174175c03",
+        "f1475e5f-4d6a-4f9a-9619-eb32ca3e8429",
+        "77e7752d-26a7-450e-8d86-cdc51b371f0e",
+        "fec59c37-60c8-4403-a225-ffa0c8c70396",
+        "a4738693-7215-44ab-a605-f140df0dd6c8",
+        "e8f83beb-5b5f-40f7-be80-d2b2765b099e",
+        "05673e52-607f-4b70-aacd-9d74a80a3dda",
+        "8c236192-d897-4656-99c0-9731e91ac595",
+        "75b50759-9f3b-4e36-b9ae-60dc3ee7f1b3",
+        "6419c464-16a6-4efc-8862-402ffd619361",
+        "c29346b5-f471-403d-b4ce-9f4bc0e0b2d8",
+        "ffe5a3d3-7544-4d21-a287-65880a15b24d",
+        "1cb502c9-507a-454b-bf02-6a124aed35a9"
+      ]
+    },
+    {
+      "id": "1dca9eff-06d3-47a1-8c43-63ebea475592",
+      "edition_en": "Allies",
+      "edition_de": "Allianzen",
+      "release_date": "2022-03",
+      "card_ids": [
+        "dca4c7aa-b867-4433-bbd7-4b03bf2cddc8",
+        "4e5afb31-8b94-4e97-88c4-6f038b2be056",
+        "fef826a4-50d1-417f-bb4c-d20120161309",
+        "059018d8-d8c1-4769-a506-bb323c981264",
+        "439076d3-240a-4d33-b053-7c1fe8ae1684",
+        "0d83fbbc-44db-4ffa-8d58-7d2c1f70d442",
+        "e6efdea0-e827-47e3-913c-6c662ab88d34",
+        "fc869b85-1dcd-4d5f-9660-9f6fb4b9e81e",
+        "dba004e0-b46c-4763-a492-1ef0a02ff5e4",
+        "f678f219-b1ea-4a81-89e1-ab781bb818a9",
+        "48a1ce08-dd2c-4989-afdf-179b957c0b09",
+        "f7756fdd-15a9-4a22-ac74-9c40eb554fa3",
+        "64337957-d54a-49de-ab79-5ce206172109",
+        "cfc8babd-d80e-4a55-9bb8-19281b955fa0",
+        "537d0f35-9204-4083-aa32-87488b5a3118",
+        "bc65dc32-8e74-40f9-ac4b-de8a64e30b7f",
+        "10a24bb5-408c-443b-87a6-55c5bc9388b6",
+        "19cd827a-ac19-441c-9302-093766c9577e",
+        "27c104b1-9f39-4bfb-ad5d-ad773a2fc209",
+        "3f01bc1a-4280-47c9-be27-6c2d1bbe52b1",
+        "2aa073a3-020f-496d-8b8b-c1efbd839b87",
+        "914ce1ac-5ce2-41aa-a904-c3665f0dab6f",
+        "88327fe3-09ab-4e18-b33b-5c42e1161584",
+        "218d223f-4b10-49b9-aa0e-4b974fae7626",
+        "4798f648-9ef9-421d-8091-759b6f076db3"
+      ]
+    },
+    {
+      "id": "6325f68a-7ca9-42a2-9c81-2c594c3abd09",
+      "edition_en": "Plunder",
+      "edition_de": "Beute",
+      "release_date": "2023-03",
+      "card_ids": [
+        "7923b7ee-5943-4c21-97fb-d97f452841db",
+        "fc56e7d2-1cd7-446d-b82b-17ca7be95440",
+        "5e881383-2854-4a17-81bd-e32231d22b6b",
+        "971e243d-85de-4284-a3da-b6d4f2640786",
+        "1cce6b24-ecbf-4fa6-a199-35a5a2df9079",
+        "a84b8197-0e3c-4e3c-826c-0c1b7a24a779",
+        "b77ab8e4-8be6-4185-ada3-e645d751e717",
+        "1afb1654-d482-452e-b865-f53b5d4a222b",
+        "914ce1ac-5ce2-41aa-a904-c3665f0dab6f",
+        "a0e86ca4-2a19-4d07-adad-f8060050b711",
+        "37983b06-68f2-46d1-8019-485ffd7a6346",
+        "6bcdc3f3-6bef-43be-a324-8fb571d503cb",
+        "c0314633-51d9-452f-932f-a1afab01ee28",
+        "fc869b85-1dcd-4d5f-9660-9f6fb4b9e81e",
+        "c8987ddb-da76-42d2-8ccb-0e5bcfba770b",
+        "f3620fe2-b9a7-4de2-9b64-44c441b0622f",
+        "a43e9c55-0363-4d65-83d1-4a2c1483e17e",
+        "bb5417be-cb04-41cb-bf66-ff9dba7d91df",
+        "8761bf21-1a40-456f-bca9-1e3810312e8e",
+        "58871364-c69d-4a73-8c55-922150b68ceb",
+        "2aa073a3-020f-496d-8b8b-c1efbd839b87",
+        "88327fe3-09ab-4e18-b33b-5c42e1161584",
+        "790d44cd-db87-4d62-8c5c-297440826fe8",
+        "5846a0c8-022e-4d32-91dd-d234add350c4",
+        "b506aba3-f959-4a69-8dc4-74e28e58de19",
+        "2cd392e8-1acd-4f55-8b99-4c0ffb0a5cb5",
+        "375f7a51-55b1-40a1-9a9e-79df9cbbe098",
+        "bd3ef2a4-22b3-410d-b991-3ae74ba501be",
+        "4af5a474-b37a-4941-8989-7305792292d5",
+        "a8e1ae06-b1de-44b5-adc2-c9b2116d52c5",
+        "2c8643b5-7ecd-459e-87ec-65ed3ccef950",
+        "9df8bfb6-b8a8-4c8f-a792-30ad403f4278",
+        "3a350311-844e-4e2c-856f-f9b6a49379be",
+        "be9a43a7-1a83-417d-8471-3a751eca0159",
+        "b8a109b7-d7ba-4b50-8cc6-a37a72b897b4",
+        "fd08a9a6-6924-42cd-a20e-cc5b20438c54",
+        "be0f4f07-78cc-4e0a-a156-5ddebcdd6b50",
+        "24788c1b-8973-4f29-b22c-30de7b701d98",
+        "1e15a240-a82f-4a7a-9a15-42d79395d4a3",
+        "64337957-d54a-49de-ab79-5ce206172109"
+      ]
+    },
+    {
+      "id": "7d219b26-2132-4b6d-a169-b8fa108e98ac",
+      "edition_en": "Promos",
+      "edition_de": "Promokarten",
+      "release_date": "various",
+      "card_ids": [
+        "6cae1018-e437-44b9-a47e-c5d0edb6a76e",
+        "9f9b0e5f-0cd3-4fca-93ac-c1f4bcca21c2",
+        "cc40fc8f-d064-4332-92ce-d960356ab659",
+        "a36d4717-5e24-4928-a7ac-60103f59c01b",
+        "471f9175-5846-4e68-8222-068cbdd61001",
+        "c22c7328-da77-447d-9e7f-c736c32d495c",
+        "121fc594-aa5f-4a17-b179-c8ab8c3b4c97",
+        "052c02e3-aeb2-4adb-bb93-c883d7fae197",
+        "74634c79-0a86-4ad7-aeeb-7dbeb2feab85",
+        "545ad7b4-6ece-402e-9056-5f8bbda32586",
+        "ad5dcbf7-80f2-4891-8e4e-502ca02d7be7",
+        "3d0ad3dd-1b0c-470b-afa8-17f4df5d2445",
+        "1830d126-b2d4-43ef-93e0-12d0d8f6ab3e",
+        "0704c761-892d-411e-81b6-744d75b1561b"
+      ]
+    },
+    {
+      "id": "16bed0bc-bf08-44b2-ac7e-bac0ec03b638",
+      "edition_en": "Cornucopia (1st Edition)",
+      "edition_de": "Reiche Ernte (1. Auflage)",
+      "release_date": "2011-06",
+      "card_ids": [
+        "c5f063d4-15d6-486d-97f2-ec3946849b4b",
+        "55f1b13e-2372-45fa-93e3-e3ba786be8f5",
+        "907dc5f0-d733-41f7-8b74-7d2d0e1a4d11",
+        "8ec495b6-c544-4df2-8215-00872d38c1a2",
+        "e4c6fa9a-b136-4acc-b867-fd182b69da1c",
+        "c9c0b741-505d-4761-81e3-a1f2d82cdf4d",
+        "73ae7d48-3c79-42ae-86f5-37b1b2134e97",
+        "42ac8daf-7a82-4c18-a87b-8b19eaa5b168",
+        "6e2fe98c-c84e-4683-99d3-51b29919dc81",
+        "3650582e-3a0d-4660-81af-b8c9e8492a24",
+        "8629b2df-80b2-4516-901c-e86b3f599401",
+        "d25e7f5a-a731-47a2-a61c-61156abfcb7d"
+      ]
+    },
+    {
+      "id": "6f3c6987-607c-4a3e-a667-67af723a7516",
+      "edition_en": "Guilds (1st Edition)",
+      "edition_de": "Gilden (1. Auflage)",
+      "release_date": "2013-06",
+      "card_ids": [
+        "745e5bd5-99a6-45a8-b9d3-55ce865f24f0",
+        "9a3ec56b-ed5c-4782-9f5c-f818e1c325b9",
+        "3d931752-a691-47ca-be99-b2007f4f97af",
+        "a262bde6-c1e8-4f05-ba27-1b4a577905c7",
+        "92be20e7-39b0-499a-aa0a-bb063ea87c3f",
+        "56fc6bb8-b2aa-4db3-a855-3b8e14f2c463",
+        "22681d39-17f5-4507-942f-763d490ab07b",
+        "db6a04bb-d04a-4adb-b594-d4812758171b",
+        "fa5a3898-c519-4509-8f64-288a32c2e720",
+        "70839457-96f3-40e8-be5e-aa4443c68ff8",
+        "076e8b69-e3f5-4ab1-ae64-c01d54fcb21c",
+        "2dfe1c6c-5b33-4e65-845b-7e6aa26aaa9f",
+        "ff253638-cb1b-4d95-a568-2159727c337b"
+      ]
+    },
+    {
+      "id": "b4341af3-0c69-4628-81af-841a450fd3e7",
+      "edition_en": "Cornucopia & Guilds (2nd Edition)",
+      "edition_de": "Reiche Ernte & Gilden (2. Auflage)",
+      "release_date": "2024-10",
+      "card_ids": [
+        "745e5bd5-99a6-45a8-b9d3-55ce865f24f0",
+        "c5f063d4-15d6-486d-97f2-ec3946849b4b",
+        "9a3ec56b-ed5c-4782-9f5c-f818e1c325b9",
+        "3d931752-a691-47ca-be99-b2007f4f97af",
+        "55f1b13e-2372-45fa-93e3-e3ba786be8f5",
+        "907dc5f0-d733-41f7-8b74-7d2d0e1a4d11",
+        "92be20e7-39b0-499a-aa0a-bb063ea87c3f",
+        "56fc6bb8-b2aa-4db3-a855-3b8e14f2c463",
+        "22681d39-17f5-4507-942f-763d490ab07b",
+        "e4c6fa9a-b136-4acc-b867-fd182b69da1c",
+        "c9c0b741-505d-4761-81e3-a1f2d82cdf4d",
+        "73ae7d48-3c79-42ae-86f5-37b1b2134e97",
+        "fa5a3898-c519-4509-8f64-288a32c2e720",
+        "70839457-96f3-40e8-be5e-aa4443c68ff8",
+        "076e8b69-e3f5-4ab1-ae64-c01d54fcb21c",
+        "2dfe1c6c-5b33-4e65-845b-7e6aa26aaa9f",
+        "ff253638-cb1b-4d95-a568-2159727c337b"
+      ]
+    }
+  ]
+}
