@@ -70,20 +70,29 @@ When `VITE_REQUIRE_PASSWORD` is set to `'true'`, users will be prompted for a pa
 
 ### Custom Card Images
 
+The application loads card images from two sources:
+1. **Default images**: From the `/cards/` folder (e.g., `/cards/{cardId}.jpg`)
+2. **Uploaded images**: From IndexedDB (browser storage)
+
 You can upload your own card images to replace the default images. Uploaded images are stored in the browser's IndexedDB and persist across sessions.
 
+**How to upload:**
 1. Open the Settings overlay (click the ⚙️ button in the header)
 2. Scroll to the "Image Upload" section
 3. Click "Upload folder of images" and select a folder containing your card images
 4. Images will be automatically matched to cards based on their filenames
 
 **Filename Requirements:**
-- Images must be named with the card's UUID (e.g., `d07e4264-98c8-4677-9492-b743f814eff9.jpg`)
-- Alternatively, numeric IDs are supported (e.g., `123.jpg`)
+- **Image filenames must match the card ID** from `dominion.json`
+- Card IDs are UUIDs, so images must be named with the full UUID (e.g., `d07e4264-98c8-4677-9492-b743f814eff9.jpg`)
 - Supported image formats: JPG, JPEG, PNG, GIF, WebP, BMP
 
-**How it works:**
-- Uploaded images take priority over default images from the `/cards/` directory
+**Image Loading Priority:**
+1. First, the app checks IndexedDB for an uploaded image matching the card ID
+2. If not found in IndexedDB, it falls back to the default image from `/cards/{cardId}.jpg`
+3. Uploaded images in IndexedDB take priority over default images
+
+**Additional Information:**
 - Images are stored locally in your browser using IndexedDB
 - You can clear all uploaded images using the "Clear uploaded images" button
 - The upload count shows how many images you have stored
