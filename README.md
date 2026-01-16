@@ -2,6 +2,8 @@
 
 A modern, interactive web application for browsing and filtering Dominion card game cards. Built with React and Vite, featuring multi-language support, advanced filtering, and a responsive design.
 
+The application uses `dominion.json` as its data basis, containing all card and edition information.
+
 ## ⚠️ Disclaimer
 
 This is a **fan-made project** and is not affiliated with, endorsed by, or associated with the creators or publishers of Dominion. I do not own the rights to Dominion or any of its content. Dominion is a trademark of its respective owners. This application is created for educational and personal use only.
@@ -141,3 +143,5 @@ See the [LICENSE](LICENSE) file for details.
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
+
+Everyone is welcome to improve the data basis (`dominion.json`) via merge requests. Whether it's adding missing cards, correcting information, or improving translations, your contributions help make this project better for everyone.
