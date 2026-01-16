@@ -1,1 +1,143 @@
-# dominion
+# Dominion Card Browser
+
+A modern, interactive web application for browsing and filtering Dominion card game cards. Built with React and Vite, featuring multi-language support, advanced filtering, and a responsive design.
+
+## ⚠️ Disclaimer
+
+This is a **fan-made project** and is not affiliated with, endorsed by, or associated with the creators or publishers of Dominion. I do not own the rights to Dominion or any of its content. Dominion is a trademark of its respective owners. This application is created for educational and personal use only.
+
+## 🌐 Live Demo
+
+**Browse the application live at: [https://dennisgermany.github.io/dominion/](https://dennisgermany.github.io/dominion/)**
+
+## Features
+
+- 🔍 **Search & Filter**: Search cards by name and filter by edition, card type, and image availability
+- 🌍 **Multi-language Support**: Switch between English and German
+- 📱 **Responsive Design**: Mobile-friendly interface with collapsible filter menu
+- 🎨 **Customizable Display**: Adjust card size and toggle image display
+- 📊 **Sorting Options**: Sort cards by name, price, type, or edition (ascending/descending)
+- 🔒 **Optional Password Protection**: Secure access with configurable password authentication
+- ⚡ **Fast & Efficient**: Optimized performance with React hooks and memoization
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v16 or higher recommended)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone <repository-url>
+cd dominion
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Start the development server:
+```bash
+npm run dev
+```
+
+4. Open your browser and navigate to `http://localhost:5173` (or the port shown in the terminal)
+
+## Configuration
+
+### Password Protection
+
+Password protection can be enabled/disabled via environment variables:
+
+1. Create a `.env` file in the root directory:
+```env
+VITE_REQUIRE_PASSWORD=true
+```
+
+2. Set your password in `src/config/auth.js`:
+```javascript
+export const PASSWORD = 'your-password-here'
+```
+
+When `VITE_REQUIRE_PASSWORD` is set to `'true'`, users will be prompted for a password before accessing the application. The authentication state is stored in localStorage.
+
+## Available Scripts
+
+- `npm run dev` - Start the development server with hot module replacement
+- `npm run build` - Build the application for production
+- `npm run preview` - Preview the production build locally
+
+## Project Structure
+
+```
+dominion/
+├── src/
+│   ├── components/          # React components
+│   │   ├── Card.jsx         # Individual card display component
+│   │   ├── CardGrid.jsx     # Grid layout for cards
+│   │   ├── EditionFilter.jsx
+│   │   ├── FilterStats.jsx
+│   │   ├── ImageFilter.jsx
+│   │   ├── LanguagePicker.jsx
+│   │   ├── Login.jsx
+│   │   ├── SearchBar.jsx
+│   │   ├── SettingsOverlay.jsx
+│   │   ├── SortControl.jsx
+│   │   └── TypeFilter.jsx
+│   ├── config/
+│   │   └── auth.js          # Authentication configuration
+│   ├── constants/
+│   │   └── editionColors.js # Edition color mappings
+│   ├── contexts/
+│   │   └── LanguageContext.jsx # Language context provider
+│   ├── styles/
+│   │   └── App.css          # Main application styles
+│   ├── App.jsx              # Main application component
+│   └── main.jsx             # Application entry point
+├── dominion.json            # Card and edition data
+├── index.html               # HTML template
+├── vite.config.js           # Vite configuration
+└── package.json             # Project dependencies
+```
+
+## Technologies Used
+
+- **React 18** - UI library
+- **Vite** - Build tool and development server
+- **CSS3** - Styling with CSS custom properties
+
+## Building for Production
+
+To create a production build:
+
+```bash
+npm run build
+```
+
+The built files will be in the `dist/` directory. The build is configured with a relative base path (`base: './'`), making it suitable for deployment to any subdirectory.
+
+## Development
+
+The application uses:
+- React Hooks (useState, useEffect, useMemo, useCallback) for state management
+- Context API for language management
+- LocalStorage for persisting settings and authentication state
+- Responsive CSS with mobile-first design principles
+
+## Data Format
+
+Card and edition data is stored in `dominion.json`. The structure includes:
+- Cards with properties: id, name (en/de), type, price, etc.
+- Editions with properties: id, name (en/de), card_ids array
+
+## License
+
+See the [LICENSE](LICENSE) file for details.
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
