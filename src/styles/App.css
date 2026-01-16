@@ -1252,6 +1252,102 @@ body {
   border-color: #667eea;
 }
 
+.settings-upload-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.settings-upload-label {
+  font-size: 1rem;
+  color: #333;
+  font-weight: 500;
+}
+
+.settings-upload-count {
+  font-size: 0.9rem;
+  color: #666;
+  font-variant-numeric: tabular-nums;
+}
+
+.settings-upload-button {
+  display: inline-block;
+  padding: 10px 16px;
+  background-color: #667eea;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+.settings-upload-button:hover {
+  background-color: #5568d3;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(102, 126, 234, 0.3);
+}
+
+.settings-upload-button:active {
+  transform: translateY(0);
+}
+
+.settings-clear-button {
+  padding: 8px 12px;
+  background-color: #f8f9fa;
+  color: #dc3545;
+  border: 2px solid #e0e0e0;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+  width: 100%;
+}
+
+.settings-clear-button:hover:not(:disabled) {
+  background-color: #fff5f5;
+  border-color: #dc3545;
+}
+
+.settings-clear-button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.settings-upload-status {
+  margin-top: 10px;
+  padding: 10px 12px;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  animation: fadeIn 0.3s ease;
+}
+
+.settings-upload-status-success {
+  background-color: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+}
+
+.settings-upload-status-error {
+  background-color: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f5c6cb;
+}
+
+.settings-upload-status-uploading {
+  background-color: #d1ecf1;
+  color: #0c5460;
+  border: 1px solid #bee5eb;
+}
+
 /* Large Screen Layout (≥1024px) */
 @media (min-width: 1024px) {
   .app-content {

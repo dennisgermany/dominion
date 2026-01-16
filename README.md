@@ -19,6 +19,7 @@ This is a **fan-made project** and is not affiliated with, endorsed by, or assoc
 - 📱 **Responsive Design**: Mobile-friendly interface with collapsible filter menu
 - 🎨 **Customizable Display**: Adjust card size and toggle image display
 - 📊 **Sorting Options**: Sort cards by name, price, type, or edition (ascending/descending)
+- 🖼️ **Custom Image Upload**: Upload your own card images via folder upload in settings
 - 🔒 **Optional Password Protection**: Secure access with configurable password authentication
 - ⚡ **Fast & Efficient**: Optimized performance with React hooks and memoization
 
@@ -67,6 +68,26 @@ export const PASSWORD = 'your-password-here'
 
 When `VITE_REQUIRE_PASSWORD` is set to `'true'`, users will be prompted for a password before accessing the application. The authentication state is stored in localStorage.
 
+### Custom Card Images
+
+You can upload your own card images to replace the default images. Uploaded images are stored in the browser's IndexedDB and persist across sessions.
+
+1. Open the Settings overlay (click the ⚙️ button in the header)
+2. Scroll to the "Image Upload" section
+3. Click "Upload folder of images" and select a folder containing your card images
+4. Images will be automatically matched to cards based on their filenames
+
+**Filename Requirements:**
+- Images must be named with the card's UUID (e.g., `d07e4264-98c8-4677-9492-b743f814eff9.jpg`)
+- Alternatively, numeric IDs are supported (e.g., `123.jpg`)
+- Supported image formats: JPG, JPEG, PNG, GIF, WebP, BMP
+
+**How it works:**
+- Uploaded images take priority over default images from the `/cards/` directory
+- Images are stored locally in your browser using IndexedDB
+- You can clear all uploaded images using the "Clear uploaded images" button
+- The upload count shows how many images you have stored
+
 ## Available Scripts
 
 - `npm run dev` - Start the development server with hot module replacement
@@ -96,6 +117,8 @@ dominion/
 │   │   └── editionColors.js # Edition color mappings
 │   ├── contexts/
 │   │   └── LanguageContext.jsx # Language context provider
+│   ├── utils/
+│   │   └── imageStorage.js  # IndexedDB image storage utilities
 │   ├── styles/
 │   │   └── App.css          # Main application styles
 │   ├── App.jsx              # Main application component
@@ -128,6 +151,7 @@ The application uses:
 - React Hooks (useState, useEffect, useMemo, useCallback) for state management
 - Context API for language management
 - LocalStorage for persisting settings and authentication state
+- IndexedDB for storing uploaded card images
 - Responsive CSS with mobile-first design principles
 
 ## Data Format

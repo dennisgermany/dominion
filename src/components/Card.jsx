@@ -1,11 +1,14 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { getEditionColor } from '../constants/editionColors'
 import { useLanguage } from '../contexts/LanguageContext'
+import { getImageURL } from '../utils/imageStorage'
 
 function Card({ card, onEditionClick, editions, language: propLanguage, showCardImages = true, onImageLoad }) {
   const { language: contextLanguage } = useLanguage()
   const language = propLanguage || contextLanguage
   const [imageError, setImageError] = useState(false)
+  const [imageSrc, setImageSrc] = useState(null)
+  const [objectURL, setObjectURL] = useState(null)
   
   // Helper to get English edition name from localized name
   const getEnglishEditionName = (localizedName) => {
@@ -21,7 +24,84 @@ function Card({ card, onEditionClick, editions, language: propLanguage, showCard
   const showSubtitle = language === 'de' && subtitleName && subtitleName !== primaryName
   const shouldReserveSubtitleSpace = language === 'de'
 
-  const imagePath = `/cards/${card.id}.jpg`
+  const defaultImagePath = `/cards/${card.id}.jpg`
+
+  // Load image from IndexedDB first, fall back to default path
+  useEffect(() => {
+    let isMounted = true
+    let currentObjectURL = null
+
+    const loadImage = async () => {
+      // Revoke previous object URL if it exists
+      if (objectURL) {
+        URL.revokeObjectURL(objectURL)
+        setObjectURL(null)
+      }
+
+      try {
+        // Try to get image from IndexedDB first
+        const url = await getImageURL(card.id)
+        if (url && isMounted) {
+          currentObjectURL = url
+          setObjectURL(url)
+          setImageSrc(url)
+          setImageError(false)
+          return
+        }
+      } catch (error) {
+        console.error('Error loading image from IndexedDB:', error)
+      }
+
+      // Fall back to default path
+      if (isMounted) {
+        setImageSrc(defaultImagePath)
+        setImageError(false)
+      }
+    }
+
+    loadImage()
+
+    // Cleanup: revoke object URL when component unmounts or card changes
+    return () => {
+      isMounted = false
+      if (currentObjectURL) {
+        URL.revokeObjectURL(currentObjectURL)
+      }
+    }
+  }, [card.id, defaultImagePath])
+
+  // Listen for image upload events to refresh
+  useEffect(() => {
+    const handleImageUpload = () => {
+      // Reload image when new images are uploaded
+      const loadImage = async () => {
+        if (objectURL) {
+          URL.revokeObjectURL(objectURL)
+          setObjectURL(null)
+        }
+        try {
+          const url = await getImageURL(card.id)
+          if (url) {
+            setObjectURL(url)
+            setImageSrc(url)
+            setImageError(false)
+          } else {
+            setImageSrc(defaultImagePath)
+            setImageError(false)
+          }
+        } catch (error) {
+          console.error('Error reloading image:', error)
+          setImageSrc(defaultImagePath)
+        }
+      }
+      loadImage()
+    }
+
+    window.addEventListener('dominion-images-updated', handleImageUpload)
+    return () => {
+      window.removeEventListener('dominion-images-updated', handleImageUpload)
+    }
+  }, [card.id, defaultImagePath, objectURL])
 
   return (
     <div className="card">
@@ -34,10 +114,10 @@ function Card({ card, onEditionClick, editions, language: propLanguage, showCard
         )}
       </div>
       
-      {showCardImages && !imageError && (
+      {showCardImages && !imageError && imageSrc && (
         <div className="card-image-container">
           <img
-            src={imagePath}
+            src={imageSrc}
             alt={primaryName}
             className="card-image"
             onLoad={() => {
