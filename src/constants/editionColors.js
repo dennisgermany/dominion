@@ -116,6 +116,11 @@ export const editionColors = {
     background: "#34d399", // Light emerald
     text: "#ffffff",
     border: "#10b981"
+  },
+  "Rising Sun": {
+    background: "#dc2626", // Red/crimson (Japanese sun)
+    text: "#ffffff",
+    border: "#b91c1c"
   }
 }
 
