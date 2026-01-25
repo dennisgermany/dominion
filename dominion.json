@@ -280,7 +280,7 @@
     {
       "id": "8eb243c8-60fc-45ec-9bd2-b52dfe4e943b",
       "en": "Sentry",
-      "de": "Torwächterin (lit.",
+      "de": "Torwächterin",
       "price": "5",
       "type": [
         "Action"
@@ -289,7 +289,7 @@
     {
       "id": "8eb59c39-4633-46c0-ba9d-5c42dcb0c260",
       "en": "Artisan",
-      "de": "Töpferei (lit.",
+      "de": "Töpferei",
       "price": "6",
       "type": [
         "Action"
@@ -597,7 +597,7 @@
     {
       "id": "559a5406-6ef5-417e-87a6-b7ca0756f5de",
       "en": "Farm",
-      "de": "Harem",
+      "de": "Farm",
       "price": "6",
       "type": [
         "Treasure",
@@ -854,7 +854,7 @@
     {
       "id": "dcfc6f2c-3476-4413-95af-9c9fa34d4a56",
       "en": "Scrying Pool",
-      "de": "Vision (lit.",
+      "de": "Vision",
       "price": "2P",
       "type": [
         "Action",
@@ -936,7 +936,7 @@
     {
       "id": "189b3b8c-1dad-4008-b56a-4ad93427add1",
       "en": "Familiar",
-      "de": "Vertrauter (lit.",
+      "de": "Vertrauter",
       "price": "3P",
       "type": [
         "Action",
@@ -1064,7 +1064,7 @@
     {
       "id": "9be522ae-ad1c-4280-901a-a6a8f42a2d7b",
       "en": "Mountebank",
-      "de": "Quacksalber (lit.",
+      "de": "Quacksalber",
       "price": "5",
       "type": [
         "Action",
@@ -1199,7 +1199,7 @@
       "type": [
         "Action",
         "Attack",
-        "Duration"
+        "Reaction"
       ]
     },
     {
@@ -1217,7 +1217,6 @@
       "de": "Brautkrone",
       "price": "4",
       "type": [
-        "Action",
         "Treasure"
       ]
     },
@@ -1237,7 +1236,7 @@
       "de": "Sammelsurium",
       "price": "5",
       "type": [
-        "Action"
+        "Treasure"
       ]
     },
     {
@@ -1282,7 +1281,8 @@
       "de": "Katzengold",
       "price": "2",
       "type": [
-        "Treasure"
+        "Treasure",
+        "Reaction"
       ]
     },
     {
@@ -1503,7 +1503,8 @@
       "de": "Wachhund",
       "price": "3",
       "type": [
-        "Action"
+        "Action",
+        "Reaction"
       ]
     },
     {
@@ -1521,7 +1522,8 @@
       "de": "Pfad",
       "price": "4",
       "type": [
-        "Action"
+        "Action",
+        "Reaction"
       ]
     },
     {
@@ -1530,7 +1532,8 @@
       "de": "Weberin",
       "price": "4",
       "type": [
-        "Action"
+        "Action",
+        "Reaction"
       ]
     },
     {
@@ -1539,7 +1542,8 @@
       "de": "Berserker",
       "price": "5",
       "type": [
-        "Action"
+        "Action",
+        "Attack"
       ]
     },
     {
@@ -1548,7 +1552,8 @@
       "de": "Hexenkessel",
       "price": "5",
       "type": [
-        "Action"
+        "Treasure",
+        "Attack"
       ]
     },
     {
