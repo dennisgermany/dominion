@@ -3,7 +3,7 @@
     {
       "id": "d07e4264-98c8-4677-9492-b743f814eff9",
       "en": "Cellar",
-      "de": "Ranziger Keller",
+      "de": "Keller",
       "price": "2",
       "type": [
         "Action"
@@ -280,7 +280,7 @@
     {
       "id": "8eb243c8-60fc-45ec-9bd2-b52dfe4e943b",
       "en": "Sentry",
-      "de": "Torwächterin (lit.",
+      "de": "Torwächterin",
       "price": "5",
       "type": [
         "Action"
@@ -289,7 +289,7 @@
     {
       "id": "8eb59c39-4633-46c0-ba9d-5c42dcb0c260",
       "en": "Artisan",
-      "de": "Töpferei (lit.",
+      "de": "Töpferei",
       "price": "6",
       "type": [
         "Action"
@@ -639,8 +639,7 @@
       "de": "Eingeborenendorf",
       "price": "2",
       "type": [
-        "Action",
-        "Mat"
+        "Action"
       ]
     },
     {
@@ -658,7 +657,8 @@
       "de": "Botschafter",
       "price": "3",
       "type": [
-        "Action"
+        "Action",
+        "Attack"
       ]
     },
     {
@@ -705,6 +705,7 @@
       "de": "Insel",
       "price": "4",
       "type": [
+        "Aktion",
         "Victory"
       ]
     },
@@ -843,6 +844,108 @@
       ]
     },
     {
+      "id": ,
+      "en": "Treasure Map",
+      "de": "Schatzkarte",
+      "price": "4",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": ,
+      "en": "Sea Chart",
+      "de": "Seekarte",
+      "price": "3",
+      "type": [
+        "Action"
+      ]
+    },
+    {
+      "id": ,
+      "en": "Monkey",
+      "de": "Affe",
+      "price": "3",
+      "type": [
+        "Action",
+        "Duration"
+      ]
+    },
+    {
+      "id": ,
+      "en": "Blockade",
+      "de": "Blockade",
+      "price": "4",
+      "type": [
+        "Action",
+        "Duration",
+        "Attack"
+      ]
+    },
+    {
+      "id": ,
+      "en": "Tide Pools",
+      "de": "Gezeitenbecken",
+      "price": "4",
+      "type": [
+        "Action",
+        "Duration"
+      ]
+    },
+    {
+      "id": ,
+      "en": "Sailor",
+      "de": "Seefahrerin",
+      "price": "4",
+      "type": [
+        "Action",
+        "Duration"
+      ]
+    },
+    {
+      "id": ,
+      "en": "Corsair",
+      "de": "Korsarenschiff",
+      "price": "5",
+      "type": [
+        "Action",
+        "Duration",
+        "Attack"
+      ]
+    },
+    {
+      "id": ,
+      "en": "Sea Witch",
+      "de": "Meerhexe",
+      "price": "5",
+      "type": [
+        "Action",
+        "Duration",
+        "Attack"
+      ]
+    },
+     {
+      "id": ,
+      "en": "Astrolabe",
+      "de": "Astrolabium",
+      "price": "3",
+      "type": [
+        "Treasure",
+        "Duration"
+      ]
+    },
+     {
+      "id": ,
+      "en": "Pirate",
+      "de": "Piratin",
+      "price": "5",
+      "type": [
+        "Action",
+        "Duration",
+        "Reaction"
+      ]
+    },
+    {
       "id": "6a108754-3882-4e87-971d-cd27e3f105ff",
       "en": "Herbalist",
       "de": "Kräuterkundiger",
@@ -854,7 +957,7 @@
     {
       "id": "dcfc6f2c-3476-4413-95af-9c9fa34d4a56",
       "en": "Scrying Pool",
-      "de": "Vision (lit.",
+      "de": "Vision",
       "price": "2P",
       "type": [
         "Action",
@@ -936,7 +1039,7 @@
     {
       "id": "189b3b8c-1dad-4008-b56a-4ad93427add1",
       "en": "Familiar",
-      "de": "Vertrauter (lit.",
+      "de": "Vertrauter",
       "price": "3P",
       "type": [
         "Action",
@@ -1064,7 +1167,7 @@
     {
       "id": "9be522ae-ad1c-4280-901a-a6a8f42a2d7b",
       "en": "Mountebank",
-      "de": "Quacksalber (lit.",
+      "de": "Quacksalber",
       "price": "5",
       "type": [
         "Action",
@@ -1187,7 +1290,6 @@
       "de": "Amboss",
       "price": "3",
       "type": [
-        "Action",
         "Treasure"
       ]
     },
@@ -1198,8 +1300,8 @@
       "price": "4",
       "type": [
         "Action",
+        "Reaction",
         "Attack",
-        "Duration"
       ]
     },
     {
@@ -1217,7 +1319,6 @@
       "de": "Brautkrone",
       "price": "4",
       "type": [
-        "Action",
         "Treasure"
       ]
     },
@@ -1237,7 +1338,7 @@
       "de": "Sammelsurium",
       "price": "5",
       "type": [
-        "Action"
+        "Treasure"
       ]
     },
     {
@@ -1253,6 +1354,15 @@
       "id": "c608a2f2-e29a-4ee3-9794-a09dac10e3c1",
       "en": "War Chest",
       "de": "Waffenkiste",
+      "price": "5",
+      "type": [
+        "Treasure"
+      ]
+    },
+    {
+      "id": "",
+      "en": "Crystal Ball",
+      "de": "Kristallkugel",
       "price": "5",
       "type": [
         "Treasure"
@@ -1282,7 +1392,8 @@
       "de": "Katzengold",
       "price": "2",
       "type": [
-        "Treasure"
+        "Treasure",
+        "Reaction"
       ]
     },
     {
@@ -1503,7 +1614,8 @@
       "de": "Wachhund",
       "price": "3",
       "type": [
-        "Action"
+        "Action",
+        "Reaction"
       ]
     },
     {
@@ -1521,7 +1633,8 @@
       "de": "Pfad",
       "price": "4",
       "type": [
-        "Action"
+        "Action",
+        "Reaction"
       ]
     },
     {
@@ -1530,7 +1643,8 @@
       "de": "Weberin",
       "price": "4",
       "type": [
-        "Action"
+        "Action",
+        "Reaction"
       ]
     },
     {
@@ -1539,7 +1653,8 @@
       "de": "Berserker",
       "price": "5",
       "type": [
-        "Action"
+        "Action",
+        "Attack"
       ]
     },
     {
@@ -1548,7 +1663,8 @@
       "de": "Hexenkessel",
       "price": "5",
       "type": [
-        "Action"
+        "Treasure",
+        "Attack"
       ]
     },
     {
@@ -1567,6 +1683,16 @@
       "price": "5",
       "type": [
         "Action"
+      ]
+    },
+    {
+      "id": "",
+      "en": "Witch's Hut",
+      "de": "Hexenhütte",
+      "price": "5",
+      "type": [
+        "Action",
+        "Attack"
       ]
     },
     {
@@ -1677,7 +1803,8 @@
       "de": "Leichenkarren",
       "price": "4",
       "type": [
-        "Action"
+        "Action",
+        "Looter"
       ]
     },
     {
@@ -1840,7 +1967,7 @@
     {
       "id": "a67b22c5-41ca-4090-ba4e-486be27b4740",
       "en": "Pillage",
-      "de": "Raubzug (lit.",
+      "de": "Raubzug",
       "price": "5",
       "type": [
         "Action",
@@ -1894,6 +2021,15 @@
       "type": [
         "Treasure",
         "Reserve"
+      ]
+    },
+    {
+      "id": "",
+      "en": "Rebuild",
+      "de": "Neubau",
+      "price": "5",
+      "type": [
+        "Action"
       ]
     },
     {
@@ -2020,8 +2156,7 @@
       "de": "Geizhals",
       "price": "4",
       "type": [
-        "Action",
-        "Reserve"
+        "Action"
       ]
     },
     {
@@ -2036,7 +2171,7 @@
     {
       "id": "5737be80-fda3-4c2f-bbb1-9d92d1fdb0ff",
       "en": "Ranger",
-      "de": "Wildhüter",
+      "de": "Wildhüterin",
       "price": "4",
       "type": [
         "Action"
@@ -2055,7 +2190,7 @@
     {
       "id": "7eb26c75-7b90-46d6-9f62-bcf607ed1c3f",
       "en": "Artificer",
-      "de": "Kunsthandwerker",
+      "de": "Kunsthandwerkerin",
       "price": "5",
       "type": [
         "Action"
@@ -2091,7 +2226,6 @@
       "type": [
         "Action",
         "Attack",
-        "Journey"
       ]
     },
     {
@@ -2187,17 +2321,16 @@
       "id": "93d9732e-f57b-4fdc-bac1-874ca713bce1",
       "en": "Engineer",
       "de": "Ingenieurin",
-      "price": "4",
+      "price": "4D",
       "type": [
-        "Action",
-        "Reserve"
+        "Action"
       ]
     },
     {
       "id": "a00517b8-ae63-4969-9236-37a497413857",
       "en": "City Quarter",
       "de": "Stadtviertel",
-      "price": "8",
+      "price": "8D",
       "type": [
         "Action"
       ]
@@ -2206,7 +2339,7 @@
       "id": "30dffe71-51c6-4ded-af41-8f72dfb7e64c",
       "en": "Royal Blacksmith",
       "de": "Königlicher Schmied",
-      "price": "8",
+      "price": "8D",
       "type": [
         "Action"
       ]
@@ -2215,10 +2348,12 @@
       "id": "9ded5548-2c33-469c-a81b-2a6346f02632",
       "en": "Catapult/Rocks",
       "de": "Katapult/Steine",
-      "price": "3",
+      "price": "3/4"
       "type": [
         "Action",
-        "Attack"
+        "Attack",
+        "/",
+        "Treasure"
       ]
     },
     {
@@ -2233,10 +2368,12 @@
     {
       "id": "47e82f2f-99f6-46d0-843b-cbbd12b68946",
       "en": "Encampment/Plunder",
-      "de": "Lager/Plünderung",
-      "price": "2",
+      "de": "Feldlager/Diebesgut",
+      "price": "2/5",
       "type": [
-        "Action"
+        "Action",
+        "/",
+        "Treasure"
       ]
     },
     {
@@ -2245,35 +2382,40 @@
       "de": "Bauernmarkt",
       "price": "3",
       "type": [
-        "Action"
+        "Action",
+        "Gathering"
       ]
     },
     {
       "id": "7d91dbd4-7410-4cc0-8c82-c3b669c929c4",
       "en": "Gladiator/Fortune",
-      "de": "Gladiator/Vermögen",
-      "price": "3",
+      "de": "Gladiator/Reichtum",
+      "price": "3/8+8D",
       "type": [
         "Action",
-        "Attack"
+        "/",
+        "Treasure"
       ]
     },
     {
       "id": "66f354f4-744e-42f8-a9b8-d2ee57111e0f",
       "en": "Patrician/Emporium",
-      "de": "Patrizier/Emporium",
-      "price": "2",
+      "de": "Patrizier/Handelsplatz",
+      "price": "2/5",
       "type": [
         "Action",
-        "Victory"
+        "/",
+        "Action"
       ]
     },
     {
       "id": "328642cc-43d8-4a01-8c83-e74c428df84f",
       "en": "Settlers/Bustling Village",
-      "de": "Siedler/Belebtes Dorf",
-      "price": "2",
+      "de": "Siedler/Emsiges Dorf",
+      "price": "2/5",
       "type": [
+        "Action",
+        "/",
         "Action"
       ]
     },
@@ -2328,7 +2470,7 @@
       "id": "980ffd76-a360-4990-8dd4-d8c34e0233ae",
       "en": "Enchantress",
       "de": "Zauberin",
-      "price": "5",
+      "price": "3",
       "type": [
         "Action",
         "Attack",
@@ -2369,7 +2511,8 @@
       "de": "Tempel",
       "price": "4",
       "type": [
-        "Action"
+        "Action",
+        "Gathering"
       ]
     },
     {
@@ -2378,7 +2521,8 @@
       "de": "Wilde Jagd",
       "price": "5",
       "type": [
-        "Action"
+        "Action",
+        "Gathering"
       ]
     },
     {
@@ -2386,6 +2530,15 @@
       "en": "Forum",
       "de": "Forum",
       "price": "5",
+      "type": [
+        "Action"
+      ]
+    },
+     {
+      "id": "",
+      "en": "Overlord",
+      "de": "Lehnsherr",
+      "price": "8D",
       "type": [
         "Action"
       ]
