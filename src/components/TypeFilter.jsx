@@ -1,14 +1,31 @@
 import { useState, useEffect, useRef } from 'react'
+import { createPortal } from 'react-dom'
 
 function TypeFilter({ types, selectedTypes, onTypesChange }) {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false)
   const [searchQuery, setSearchQuery] = useState('')
+  const [dropdownPosition, setDropdownPosition] = useState({ left: 0, top: 0 })
+  const triggerRef = useRef(null)
   const dropdownRef = useRef(null)
 
-  // Close dropdown when clicking outside
+  // Position dropdown when it opens (for portal)
+  useEffect(() => {
+    if (isDropdownOpen && triggerRef.current) {
+      const rect = triggerRef.current.getBoundingClientRect()
+      setDropdownPosition({
+        left: rect.right + 20,
+        top: rect.bottom + 12
+      })
+    }
+  }, [isDropdownOpen])
+
+  // Close dropdown when clicking outside (trigger or portaled dropdown)
   useEffect(() => {
     const handleClickOutside = (event) => {
-      if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+      const target = event.target
+      const inTrigger = triggerRef.current && triggerRef.current.contains(target)
+      const inDropdown = dropdownRef.current && dropdownRef.current.contains(target)
+      if (!inTrigger && !inDropdown) {
         setIsDropdownOpen(false)
         setSearchQuery('')
       }
@@ -20,6 +37,21 @@ function TypeFilter({ types, selectedTypes, onTypesChange }) {
 
     return () => {
       document.removeEventListener('mousedown', handleClickOutside)
+    }
+  }, [isDropdownOpen])
+
+  // Close dropdown on scroll or resize so it doesn't float in the wrong place
+  useEffect(() => {
+    if (!isDropdownOpen) return
+    const handleScrollOrResize = () => {
+      setIsDropdownOpen(false)
+      setSearchQuery('')
+    }
+    window.addEventListener('scroll', handleScrollOrResize, true)
+    window.addEventListener('resize', handleScrollOrResize)
+    return () => {
+      window.removeEventListener('scroll', handleScrollOrResize, true)
+      window.removeEventListener('resize', handleScrollOrResize)
     }
   }, [isDropdownOpen])
 
@@ -89,8 +121,9 @@ function TypeFilter({ types, selectedTypes, onTypesChange }) {
       )}
 
       {/* Add Types Button and Dropdown */}
-      <div className="type-dropdown-wrapper" ref={dropdownRef}>
+      <div className="type-dropdown-wrapper">
         <button
+          ref={triggerRef}
           className="add-types-button"
           onClick={handleToggleDropdown}
           aria-label="Add types"
@@ -98,8 +131,19 @@ function TypeFilter({ types, selectedTypes, onTypesChange }) {
           {isDropdownOpen ? '− Close' : '+ Add Types'}
         </button>
 
-        {isDropdownOpen && (
-          <div className="type-dropdown">
+        {isDropdownOpen && createPortal(
+          <div
+            ref={dropdownRef}
+            className="type-dropdown type-dropdown-portal"
+            style={{
+              position: 'fixed',
+              left: dropdownPosition.left,
+              top: dropdownPosition.top,
+              zIndex: 1000,
+              minWidth: 320,
+              width: 400
+            }}
+          >
             <input
               type="text"
               className="type-dropdown-search"
@@ -127,7 +171,8 @@ function TypeFilter({ types, selectedTypes, onTypesChange }) {
                 </div>
               )}
             </div>
-          </div>
+          </div>,
+          document.body
         )}
       </div>
     </div>
