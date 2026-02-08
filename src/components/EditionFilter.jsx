@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef } from 'react'
+import { createPortal } from 'react-dom'
 import { getEditionColor } from '../constants/editionColors'
 import { useLanguage } from '../contexts/LanguageContext'
 
@@ -6,12 +7,28 @@ function EditionFilter({ editions, selectedEditions, onEditionsChange }) {
   const { language } = useLanguage()
   const [isDropdownOpen, setIsDropdownOpen] = useState(false)
   const [searchQuery, setSearchQuery] = useState('')
+  const [dropdownPosition, setDropdownPosition] = useState({ left: 0, top: 0 })
+  const triggerRef = useRef(null)
   const dropdownRef = useRef(null)
 
-  // Close dropdown when clicking outside
+  // Position dropdown when it opens (for portal)
+  useEffect(() => {
+    if (isDropdownOpen && triggerRef.current) {
+      const rect = triggerRef.current.getBoundingClientRect()
+      setDropdownPosition({
+        left: rect.right + 20,
+        top: rect.bottom + 12
+      })
+    }
+  }, [isDropdownOpen])
+
+  // Close dropdown when clicking outside (trigger or portaled dropdown)
   useEffect(() => {
     const handleClickOutside = (event) => {
-      if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+      const target = event.target
+      const inTrigger = triggerRef.current && triggerRef.current.contains(target)
+      const inDropdown = dropdownRef.current && dropdownRef.current.contains(target)
+      if (!inTrigger && !inDropdown) {
         setIsDropdownOpen(false)
         setSearchQuery('')
       }
@@ -23,6 +40,21 @@ function EditionFilter({ editions, selectedEditions, onEditionsChange }) {
 
     return () => {
       document.removeEventListener('mousedown', handleClickOutside)
+    }
+  }, [isDropdownOpen])
+
+  // Close dropdown on scroll or resize so it doesn't float in the wrong place
+  useEffect(() => {
+    if (!isDropdownOpen) return
+    const handleScrollOrResize = () => {
+      setIsDropdownOpen(false)
+      setSearchQuery('')
+    }
+    window.addEventListener('scroll', handleScrollOrResize, true)
+    window.addEventListener('resize', handleScrollOrResize)
+    return () => {
+      window.removeEventListener('scroll', handleScrollOrResize, true)
+      window.removeEventListener('resize', handleScrollOrResize)
     }
   }, [isDropdownOpen])
 
@@ -119,8 +151,9 @@ function EditionFilter({ editions, selectedEditions, onEditionsChange }) {
       )}
 
       {/* Add Editions Button and Dropdown */}
-      <div className="edition-dropdown-wrapper" ref={dropdownRef}>
+      <div className="edition-dropdown-wrapper">
         <button
+          ref={triggerRef}
           className="add-editions-button"
           onClick={handleToggleDropdown}
           aria-label={language === 'de' ? 'Editionen hinzufügen' : 'Add editions'}
@@ -130,8 +163,19 @@ function EditionFilter({ editions, selectedEditions, onEditionsChange }) {
             : (language === 'de' ? '+ Editionen hinzufügen' : '+ Add Editions')}
         </button>
 
-        {isDropdownOpen && (
-          <div className="edition-dropdown">
+        {isDropdownOpen && createPortal(
+          <div
+            ref={dropdownRef}
+            className="edition-dropdown edition-dropdown-portal"
+            style={{
+              position: 'fixed',
+              left: dropdownPosition.left,
+              top: dropdownPosition.top,
+              zIndex: 1000,
+              minWidth: 320,
+              width: 400
+            }}
+          >
             <input
               type="text"
               className="edition-dropdown-search"
@@ -144,7 +188,6 @@ function EditionFilter({ editions, selectedEditions, onEditionsChange }) {
               {availableEditions.length > 0 ? (
                 availableEditions.map(edition => {
                   const editionName = language === 'de' ? edition.edition_de : edition.edition_en
-                  // Always use English name for color lookup
                   const color = getEditionColor(edition.edition_en)
                   return (
                     <button
@@ -168,7 +211,8 @@ function EditionFilter({ editions, selectedEditions, onEditionsChange }) {
                 </div>
               )}
             </div>
-          </div>
+          </div>,
+          document.body
         )}
       </div>
     </div>

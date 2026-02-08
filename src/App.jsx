@@ -271,7 +271,8 @@ function App() {
           >
             ✕
           </button>
-          
+
+          <div className="filters-inner">
           <FilterStats
             selectedEditionsCount={selectedEditions.length}
             filteredCardsCount={cards.length}
@@ -312,6 +313,7 @@ function App() {
             onSortFieldChange={setSortField}
             onSortDirectionChange={setSortDirection}
           />
+          </div>
         </div>
 
         <CardGrid 
