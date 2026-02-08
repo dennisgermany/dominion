@@ -1,5 +1,12 @@
 # Dominion Card Browser
 
+[![Deploy to GitHub Pages](https://github.com/dennisgermany/dominion/actions/workflows/deploy.yml/badge.svg)](https://github.com/dennisgermany/dominion/actions/workflows/deploy.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Live Demo](https://img.shields.io/badge/demo-live%20site-green)](https://dennisgermany.github.io/dominion/)
+[![Node](https://img.shields.io/badge/node-%3E%3D20-brightgreen)](https://nodejs.org/)
+[![React](https://img.shields.io/badge/React-19-61dafb?logo=react)](https://react.dev/)
+[![Vite](https://img.shields.io/badge/Vite-7-646cff?logo=vite)](https://vitejs.dev/)
+
 A modern, interactive web application for browsing and filtering Dominion card game cards. Built with React and Vite, featuring multi-language support, advanced filtering, and a responsive design.
 
 The application uses `dominion.json` as its data basis, containing all card and edition information.
