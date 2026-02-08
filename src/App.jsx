@@ -4,6 +4,7 @@ import { useLanguage } from './contexts/LanguageContext'
 import EditionFilter from './components/EditionFilter'
 import SearchBar from './components/SearchBar'
 import TypeFilter from './components/TypeFilter'
+import KingdomFilter from './components/KingdomFilter'
 import ImageFilter from './components/ImageFilter'
 import SortControl from './components/SortControl'
 import CardGrid from './components/CardGrid'
@@ -19,6 +20,7 @@ function App() {
   const [selectedEditions, setSelectedEditions] = useState([])
   const [searchQuery, setSearchQuery] = useState('')
   const [selectedTypes, setSelectedTypes] = useState([])
+  const [showOnlyKingdomCards, setShowOnlyKingdomCards] = useState(false)
   const [imageFilter, setImageFilter] = useState('all') // 'all', 'with', 'without'
   const [sortField, setSortField] = useState('price')
   const [sortDirection, setSortDirection] = useState('asc')
@@ -155,6 +157,11 @@ function App() {
       )
     }
 
+    // Apply kingdom filter (treat missing kingdom as true for backwards compatibility)
+    if (showOnlyKingdomCards) {
+      allCards = allCards.filter(card => card.kingdom !== false)
+    }
+
     // Apply image filter
     if (imageFilter !== 'all') {
       allCards = allCards.filter(card => {
@@ -208,7 +215,7 @@ function App() {
     })
 
     return allCards
-  }, [selectedEditions, searchQuery, selectedTypes, imageFilter, cardsWithImages, sortField, sortDirection, cardMap, language])
+  }, [selectedEditions, searchQuery, selectedTypes, showOnlyKingdomCards, imageFilter, cardsWithImages, sortField, sortDirection, cardMap, language])
 
   // Callback to track which cards have images
   const handleImageLoad = useCallback((cardId, hasImage) => {
@@ -287,6 +294,11 @@ function App() {
             types={allTypes}
             selectedTypes={selectedTypes}
             onTypesChange={setSelectedTypes}
+          />
+
+          <KingdomFilter
+            showOnlyKingdomCards={showOnlyKingdomCards}
+            onShowOnlyKingdomCardsChange={setShowOnlyKingdomCards}
           />
           
           <ImageFilter
