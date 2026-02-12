@@ -640,7 +640,6 @@
       "price": "2",
       "type": [
         "Action",
-        "Mat"
       ]
     },
     {
@@ -658,7 +657,8 @@
       "de": "Botschafter",
       "price": "3",
       "type": [
-        "Action"
+        "Action",
+        "Attack"
       ]
     },
     {
@@ -705,6 +705,7 @@
       "de": "Insel",
       "price": "4",
       "type": [
+        "Action",
         "Victory"
       ]
     },
@@ -1187,7 +1188,6 @@
       "de": "Amboss",
       "price": "3",
       "type": [
-        "Action",
         "Treasure"
       ]
     },
@@ -1198,8 +1198,8 @@
       "price": "4",
       "type": [
         "Action",
-        "Attack",
-        "Reaction"
+        "Reaction",
+        "Attack"
       ]
     },
     {
@@ -1682,7 +1682,8 @@
       "de": "Leichenkarren",
       "price": "4",
       "type": [
-        "Action"
+        "Action",
+        "Looter"
       ]
     },
     {
@@ -1845,7 +1846,7 @@
     {
       "id": "a67b22c5-41ca-4090-ba4e-486be27b4740",
       "en": "Pillage",
-      "de": "Raubzug (lit.",
+      "de": "Raubzug",
       "price": "5",
       "type": [
         "Action",
@@ -2026,7 +2027,6 @@
       "price": "4",
       "type": [
         "Action",
-        "Reserve"
       ]
     },
     {
@@ -2041,7 +2041,7 @@
     {
       "id": "5737be80-fda3-4c2f-bbb1-9d92d1fdb0ff",
       "en": "Ranger",
-      "de": "Wildhüter",
+      "de": "Wildhüterin",
       "price": "4",
       "type": [
         "Action"
@@ -2060,7 +2060,7 @@
     {
       "id": "7eb26c75-7b90-46d6-9f62-bcf607ed1c3f",
       "en": "Artificer",
-      "de": "Kunsthandwerker",
+      "de": "Kunsthandwerkerin",
       "price": "5",
       "type": [
         "Action"
@@ -2073,8 +2073,8 @@
       "price": "5",
       "type": [
         "Action",
-        "Attack",
-        "Duration"
+        "Duration",
+        "Attack"
       ]
     },
     {
@@ -2095,8 +2095,7 @@
       "price": "5",
       "type": [
         "Action",
-        "Attack",
-        "Journey"
+        "Attack"
       ]
     },
     {
@@ -2192,7 +2191,7 @@
       "id": "93d9732e-f57b-4fdc-bac1-874ca713bce1",
       "en": "Engineer",
       "de": "Ingenieurin",
-      "price": "4",
+      "price": "D4",
       "type": [
         "Action",
         "Reserve"
@@ -2202,7 +2201,7 @@
       "id": "a00517b8-ae63-4969-9236-37a497413857",
       "en": "City Quarter",
       "de": "Stadtviertel",
-      "price": "8",
+      "price": "D8",
       "type": [
         "Action"
       ]
@@ -2211,7 +2210,7 @@
       "id": "30dffe71-51c6-4ded-af41-8f72dfb7e64c",
       "en": "Royal Blacksmith",
       "de": "Königlicher Schmied",
-      "price": "8",
+      "price": "D8",
       "type": [
         "Action"
       ]
@@ -2219,7 +2218,7 @@
     {
       "id": "9ded5548-2c33-469c-a81b-2a6346f02632",
       "en": "Catapult/Rocks",
-      "de": "Katapult/Steine",
+      "de": "Katapult/Felsen",
       "price": "3",
       "type": [
         "Action",
@@ -2238,7 +2237,7 @@
     {
       "id": "47e82f2f-99f6-46d0-843b-cbbd12b68946",
       "en": "Encampment/Plunder",
-      "de": "Lager/Plünderung",
+      "de": "Feldlager/Diebesgut",
       "price": "2",
       "type": [
         "Action"
@@ -2256,27 +2255,25 @@
     {
       "id": "7d91dbd4-7410-4cc0-8c82-c3b669c929c4",
       "en": "Gladiator/Fortune",
-      "de": "Gladiator/Vermögen",
+      "de": "Gladiator/Reichtum",
       "price": "3",
       "type": [
         "Action",
-        "Attack"
       ]
     },
     {
       "id": "66f354f4-744e-42f8-a9b8-d2ee57111e0f",
       "en": "Patrician/Emporium",
-      "de": "Patrizier/Emporium",
+      "de": "Patrizier/Handelsplatz",
       "price": "2",
       "type": [
         "Action",
-        "Victory"
       ]
     },
     {
       "id": "328642cc-43d8-4a01-8c83-e74c428df84f",
       "en": "Settlers/Bustling Village",
-      "de": "Siedler/Belebtes Dorf",
+      "de": "Siedler/Emsiges Dorf",
       "price": "2",
       "type": [
         "Action"
@@ -2333,7 +2330,7 @@
       "id": "980ffd76-a360-4990-8dd4-d8c34e0233ae",
       "en": "Enchantress",
       "de": "Zauberin",
-      "price": "5",
+      "price": "3",
       "type": [
         "Action",
         "Attack",
@@ -2374,7 +2371,8 @@
       "de": "Tempel",
       "price": "4",
       "type": [
-        "Action"
+        "Action",
+        "Gathering"
       ]
     },
     {
@@ -2383,7 +2381,8 @@
       "de": "Wilde Jagd",
       "price": "5",
       "type": [
-        "Action"
+        "Action",
+        "Gathering"
       ]
     },
     {
